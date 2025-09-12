@@ -1,0 +1,366 @@
+./AsakuraKaren/AsakuraKaren_000_0.wav|AsakuraKaren|JA|あ、ルカさん、まだいてくれたのね。
+./AsakuraKaren/AsakuraKaren_000_1.wav|AsakuraKaren|JA|よくわからないのだけど、ルカさんと遊べって。
+./AsakuraKaren/AsakuraKaren_000_2.wav|AsakuraKaren|JA|ふふ、すごくうれしそう。
+./AsakuraKaren/AsakuraKaren_000_3.wav|AsakuraKaren|JA|やっぱりゲームかな。
+./AsakuraKaren/AsakuraKaren_000_4.wav|AsakuraKaren|JA|このバトルロイヤルゲーム、久しぶりね。
+./AsakuraKaren/AsakuraKaren_000_5.wav|AsakuraKaren|JA|何か問題でも?
+./AsakuraKaren/AsakuraKaren_000_6.wav|AsakuraKaren|JA|うん、腕が鳴る。
+./AsakuraKaren/AsakuraKaren_000_7.wav|AsakuraKaren|JA|スタート!
+./AsakuraKaren/AsakuraKaren_000_8.wav|AsakuraKaren|JA|今のは失敗。移動したかっただけなのに。
+./AsakuraKaren/AsakuraKaren_000_9.wav|AsakuraKaren|JA|勘。
+./AsakuraKaren/AsakuraKaren_000_10.wav|AsakuraKaren|JA|鬼を見たことあるの?
+./AsakuraKaren/AsakuraKaren_000_11.wav|AsakuraKaren|JA|そうね、おとぎ話の世界だもんね。
+./AsakuraKaren/AsakuraKaren_000_12.wav|AsakuraKaren|JA|これで最後よ。
+./AsakuraKaren/AsakuraKaren_000_13.wav|AsakuraKaren|JA|楽しかった。
+./AsakuraKaren/AsakuraKaren_000_14.wav|AsakuraKaren|JA|最初に自己紹介したじゃない。
+./AsakuraKaren/AsakuraKaren_000_15.wav|AsakuraKaren|JA|FPS系のゲームが得意だって。
+./AsakuraKaren/AsakuraKaren_000_16.wav|AsakuraKaren|JA|うん。
+./AsakuraKaren/AsakuraKaren_000_17.wav|AsakuraKaren|JA|なんで?
+./AsakuraKaren/AsakuraKaren_000_18.wav|AsakuraKaren|JA|ふふ、ルカさん、カレンちゃんのことよくわかってて笑っちゃう。
+./AsakuraKaren/AsakuraKaren_000_19.wav|AsakuraKaren|JA|ねえ、ルカさん。
+./AsakuraKaren/AsakuraKaren_000_20.wav|AsakuraKaren|JA|ゲームばかりでなんだし、たまにはカフェでお茶しない?
+./AsakuraKaren/AsakuraKaren_000_21.wav|AsakuraKaren|JA|できないけど、付き合ってくれるってことね。
+./AsakuraKaren/AsakuraKaren_000_22.wav|AsakuraKaren|JA|ふふ、これは台湾唐揚げ。
+./AsakuraKaren/AsakuraKaren_000_23.wav|AsakuraKaren|JA|そうね、骨なしの胸肉だとパサパサするイメージだけど、これはすごくジューシー。
+./AsakuraKaren/AsakuraKaren_000_24.wav|AsakuraKaren|JA|ルカさんだって、いつも肉に食うって言ってるじゃない。
+./AsakuraKaren/AsakuraKaren_000_25.wav|AsakuraKaren|JA|それもお互い様、いつも羨ましいって思ってる。
+./IzumiYuki/IzumiYuki_8_0.wav|IzumiYuki|JA|うわああ 逃げられたぁ
+./IzumiYuki/IzumiYuki_8_1.wav|IzumiYuki|JA|毎回あたしがケツって呼ばなきゃならねーんだぜ良くねえ
+./IzumiYuki/IzumiYuki_8_2.wav|IzumiYuki|JA|あれはお尻じゃねえ なんでそんな下品な名前をつけた
+./IzumiYuki/IzumiYuki_8_3.wav|IzumiYuki|JA|覚えちまった
+./IzumiYuki/IzumiYuki_8_4.wav|IzumiYuki|JA|うわああ でもデバッグも兼ねられるか
+./IzumiYuki/IzumiYuki_8_5.wav|IzumiYuki|JA|話しかけてみろよ テンション上がりすぎだろう
+./IzumiYuki/IzumiYuki_8_6.wav|IzumiYuki|JA|できた
+./IzumiYuki/IzumiYuki_8_7.wav|IzumiYuki|JA|ゲームなんて作らねえよ 簡単に言うと人工知能みたいなもんだよ
+./IzumiYuki/IzumiYuki_8_8.wav|IzumiYuki|JA|ある程度プログラミングで制御できるんだ だから試せることを試してみてる最中
+./IzumiYuki/IzumiYuki_8_9.wav|IzumiYuki|JA|なんてこと言ってんだよ 食べるのに夢中になって作業が
+./IzumiYuki/IzumiYuki_8_10.wav|IzumiYuki|JA|おろそかになるレベルだよ なんだよこれくそーめーじゃねえか
+./IzumiYuki/IzumiYuki_8_11.wav|IzumiYuki|JA|聞いたこともねえよ まあいただくが
+./IzumiYuki/IzumiYuki_8_12.wav|IzumiYuki|JA|なんだこれ 何だこれ
+./IzumiYuki/IzumiYuki_8_13.wav|IzumiYuki|JA|
+./IzumiYuki/IzumiYuki_8_14.wav|IzumiYuki|JA|
+./IzumiYuki/IzumiYuki_8_15.wav|IzumiYuki|JA|なんでもいいよ じゃあ小腹が空いたから軽食買ってきてもらってもいいか
+./IzumiYuki/IzumiYuki_8_16.wav|IzumiYuki|JA|忙しいんだけどなぁ 別に自由時間まで私なんかに構わなくていいぜ
+./IzumiYuki/IzumiYuki_8_17.wav|IzumiYuki|JA|他の奴らと過ごした方が有意義だ なんぱか
+./IzumiYuki/IzumiYuki_8_18.wav|IzumiYuki|JA|今のとこに使う要素があった
+./IzumiYuki/IzumiYuki_8_19.wav|IzumiYuki|JA|あたしが悪いのかよ そいつは大変だな
+./IzumiYuki/IzumiYuki_8_20.wav|IzumiYuki|JA|がびょーんってなんだよ こんなの小学生でも読めるだろ
+./IzumiYuki/IzumiYuki_8_21.wav|IzumiYuki|JA|読み終えたぞ
+./IzumiYuki/IzumiYuki_8_22.wav|IzumiYuki|JA|
+./IzumiYuki/IzumiYuki_8_23.wav|IzumiYuki|JA|
+./IzumiYuki/IzumiYuki_8_24.wav|IzumiYuki|JA|今時紙の本か 珍しいな
+./IzumiYuki/IzumiYuki_8_25.wav|IzumiYuki|JA|どれ
+./IzumiYuki/IzumiYuki_8_26.wav|IzumiYuki|JA|なんだよ
+./KarenChan/KarenChan_0003_0.wav|KarenChan|JA|うむ。あれから考えさせてもらったぞ。朝倉にどこまで心を許させるか。
+./KarenChan/KarenChan_0003_1.wav|KarenChan|JA|何を言ってある。同一人物じゃぞ。朝倉が傷つくことは、わしも傷つく。それだけのことじゃ。
+./KarenChan/KarenChan_0003_2.wav|KarenChan|JA|もうの、正反対のような存在ではあるの。
+./KarenChan/KarenChan_0003_3.wav|KarenChan|JA|何をだ。
+./KarenChan/KarenChan_0003_4.wav|KarenChan|JA|か弱き少女と、傲慢なサイコキラーを同時にか。そんなことは不可能だ。
+./KarenChan/KarenChan_0003_5.wav|KarenChan|JA|不可能だと言っておる。子供か。
+./KarenChan/KarenChan_0003_6.wav|KarenChan|JA|アホか。
+./KarenChan/KarenChan_0003_7.wav|KarenChan|JA|は?このわしに対して力づくだと?後悔するぞ。
+./KarenChan/KarenChan_0003_8.wav|KarenChan|JA|死亡時期になって、この体で新たな罪を犯そうものなら、いかにセラフ部隊といえども、二度と会えなくなるであろうの。
+./KarenChan/KarenChan_0003_9.wav|KarenChan|JA|たとえば、思い切りこの拳を壁に叩きつけて潰せば、朝倉はしばらく片手が使えなくなるぞ。
+./KarenChan/KarenChan_0003_10.wav|KarenChan|JA|ばれたか。わしも痛い。拳潰すなんて怖くて、そんなのムリムリムリムリムリムリ。
+./KarenChan/KarenChan_0003_11.wav|KarenChan|JA|いろいろあるからの。完全に精神がいっちゃってるやつもいれば、重罪だとわかっていてもそうするしかなくて犯すやつもいる。
+./KarenChan/KarenChan_0003_12.wav|KarenChan|JA|一応これでも多重人格だぞ。
+./KarenChan/KarenChan_0003_13.wav|KarenChan|JA|さあ、どうかのう。
+./KarenChan/KarenChan_0003_14.wav|KarenChan|JA|以上、かれんちゃんでした。
+./KarenChan/KarenChan_0003_15.wav|KarenChan|JA|ご視聴ありがとうございました。
+./KarenChan/KarenChan_0003_16.wav|KarenChan|JA|次回をお楽しみに。
+./MegumiAikawa/MegumiAikawa_0002_0.wav|MegumiAikawa|JA|スポンサーがおらんやろ。スポンサーがいてくれるからもらえるかもしれんクイズに挑めんねん。誰がGPC払ってくれるねん。
+./MegumiAikawa/MegumiAikawa_0002_1.wav|MegumiAikawa|JA|払ってくれるかー!
+./MegumiAikawa/MegumiAikawa_0002_2.wav|MegumiAikawa|JA|爆買いしたもん払ってくれるか。自分で買えなるわ。
+./MegumiAikawa/MegumiAikawa_0002_3.wav|MegumiAikawa|JA|瞑想に戻らせてもらうで。
+./MegumiAikawa/MegumiAikawa_0002_4.wav|MegumiAikawa|JA|なんで自分にいちいち教えなあかんねん。
+./MegumiAikawa/MegumiAikawa_0002_5.wav|MegumiAikawa|JA|せやったな。いっちょ前にな。
+./MegumiAikawa/MegumiAikawa_0002_6.wav|MegumiAikawa|JA|うちはこれでもエレキギター担当や。それがうまく弾ける瞑想や。
+./MegumiAikawa/MegumiAikawa_0002_7.wav|MegumiAikawa|JA|こっちのほうが早うまなんねん。
+./MegumiAikawa/MegumiAikawa_0002_8.wav|MegumiAikawa|JA|ギター触っていちいち練習してたら時間かかりすぎるやろ。そりゃ努力家のやることや。
+./MegumiAikawa/MegumiAikawa_0002_9.wav|MegumiAikawa|JA|うちは天才タイプやねん。瞑想でパッと習得すんねん。
+./MegumiAikawa/MegumiAikawa_0002_10.wav|MegumiAikawa|JA|自分がよく弾く、なんかめっちゃ早いフレーズのソロや。
+./MegumiAikawa/MegumiAikawa_0002_11.wav|MegumiAikawa|JA|こっちのほうが早うまなんねん。瞑想でパッと習得すんねん。
+./MegumiAikawa/MegumiAikawa_0002_12.wav|MegumiAikawa|JA|そいつらはサイキッカーちゃうやろ。うちはサイキッカーやねん。せやからクローいらんねん。
+./MegumiAikawa/MegumiAikawa_0002_13.wav|MegumiAikawa|JA|な、なれる。
+./MegumiAikawa/MegumiAikawa_0002_14.wav|MegumiAikawa|JA|な、なれる。
+./MegumiAikawa/MegumiAikawa_0002_15.wav|MegumiAikawa|JA|ただいまはなっても意味ないからならへんだげ。
+./MegumiAikawa/MegumiAikawa_0002_16.wav|MegumiAikawa|JA|な、なれる。
+./MegumiAikawa/MegumiAikawa_0002_17.wav|MegumiAikawa|JA|ただいまはなっても意味ないからならへんだげ。
+./MegumiAikawa/MegumiAikawa_0002_18.wav|MegumiAikawa|JA|な、なれる。
+./MegumiAikawa/MegumiAikawa_0002_19.wav|MegumiAikawa|JA|ただいまはなっても意味ないからならへんだげ。
+./MegumiAikawa/MegumiAikawa_0002_20.wav|MegumiAikawa|JA|あったわ!
+./MegumiAikawa/MegumiAikawa_0002_21.wav|MegumiAikawa|JA|なんなら一番上だろ!
+./MegumiAikawa/MegumiAikawa_0002_22.wav|MegumiAikawa|JA|ギターさわっていちいち練習してたら時間かかりすぎるやろ。
+./MegumiAikawa/MegumiAikawa_0002_23.wav|MegumiAikawa|JA|うちはサイキッカーやから瞑想でぱっと習得すんねん。
+./MegumiAikawa/MegumiAikawa_0002_24.wav|MegumiAikawa|JA|な、なれる。
+./MegumiAikawa/MegumiAikawa_0002_25.wav|MegumiAikawa|JA|な、なれる。
+./MegumiAikawa/MegumiAikawa_0002_26.wav|MegumiAikawa|JA|ただいまはなっても意味ないからならへんだげ。
+./MegumiAikawa/MegumiAikawa_0002_27.wav|MegumiAikawa|JA|な、なれる。
+./MegumiAikawa/MegumiAikawa_0002_28.wav|MegumiAikawa|JA|ただいまはなっても意味ないからならへんだげ。
+./MegumiAikawa/MegumiAikawa_0002_29.wav|MegumiAikawa|JA|な、なれる。
+./MegumiAikawa/MegumiAikawa_0002_30.wav|MegumiAikawa|JA|ただいまはなっても意味ないからならへんだげ。
+./MegumiAikawa/MegumiAikawa_0002_31.wav|MegumiAikawa|JA|あったわ!
+./MegumiAikawa/MegumiAikawa_0002_32.wav|MegumiAikawa|JA|なんなら一番上だろ!
+./MegumiAikawa/MegumiAikawa_0002_33.wav|MegumiAikawa|JA|せやからギターさわっていちいち練習してたら時間かかりすぎるやろ。
+./MegumiAikawa/MegumiAikawa_0002_34.wav|MegumiAikawa|JA|うちはサイキッカーやから瞑想でぱっと習得すんねん。
+./MegumiAikawa/MegumiAikawa_0002_35.wav|MegumiAikawa|JA|な、なれる。
+./MegumiAikawa/MegumiAikawa_0002_36.wav|MegumiAikawa|JA|な、なれる。
+./MegumiAikawa/MegumiAikawa_0002_37.wav|MegumiAikawa|JA|ただいまはなっても意味ないからならへんだげ。
+./MegumiAikawa/MegumiAikawa_0002_38.wav|MegumiAikawa|JA|な、なれる。
+./MegumiAikawa/MegumiAikawa_0002_39.wav|MegumiAikawa|JA|ただいまはなっても意味ないからならへんだげ。
+./MegumiAikawa/MegumiAikawa_0002_40.wav|MegumiAikawa|JA|な、なれる。
+./MegumiAikawa/MegumiAikawa_0002_41.wav|MegumiAikawa|JA|ただいまはなっても意味ないからならへんだげ。
+./MegumiAikawa/MegumiAikawa_0002_42.wav|MegumiAikawa|JA|あったわ!
+./MegumiAikawa/MegumiAikawa_0002_43.wav|MegumiAikawa|JA|いや冷静に考えたらそんななりたないわ!
+./MegumiAikawa/MegumiAikawa_0002_44.wav|MegumiAikawa|JA|どんだけ食欲あってもあんなん食べたないわ!
+./MegumiAikawa/MegumiAikawa_0002_45.wav|MegumiAikawa|JA|何でも揚げたら美味しくなる思うな!
+./MegumiAikawa/MegumiAikawa_0002_46.wav|MegumiAikawa|JA|せやったらカブトムシにパン粉つけて揚げたら自分美味しく食えるんか!
+./MegumiAikawa/MegumiAikawa_0002_47.wav|MegumiAikawa|JA|せやったら毒キノコにパン粉つけて揚げたら自分美味しく食えるんか!
+./MegumiAikawa/MegumiAikawa_0002_48.wav|MegumiAikawa|JA|せやったら長靴にパン粉つけて揚げたら自分美味しく食えるんか!
+./MegumiAikawa/MegumiAikawa_0002_49.wav|MegumiAikawa|JA|うそつけ!食えるか!
+./MegumiAikawa/MegumiAikawa_0002_50.wav|MegumiAikawa|JA|それは食える奴が言えるセリフや!
+./MegumiAikawa/MegumiAikawa_0002_51.wav|MegumiAikawa|JA|長靴食って見せてから言え!
+./MegumiAikawa/MegumiAikawa_0002_52.wav|MegumiAikawa|JA|なんで食えることにして強引に話し進めにかかんねん!
+./MegumiAikawa/MegumiAikawa_0002_53.wav|MegumiAikawa|JA|長靴は食えんやろ!
+./MegumiAikawa/MegumiAikawa_0002_54.wav|MegumiAikawa|JA|笑ってもうとるやないか!
+./MegumiAikawa/MegumiAikawa_0002_55.wav|MegumiAikawa|JA|食えん証拠やろ!
+./MegumiAikawa/MegumiAikawa_0002_56.wav|MegumiAikawa|JA|あんなんに脂身の部分なんてあるか!
+./MegumiAikawa/MegumiAikawa_0002_57.wav|MegumiAikawa|JA|ゴムの塊やわ!
+./MegumiAikawa/MegumiAikawa_0002_58.wav|MegumiAikawa|JA|せやからそれは食える奴が言えるセリフや!
+./MegumiAikawa/MegumiAikawa_0002_59.wav|MegumiAikawa|JA|長靴食って見せてから言え!
+./MegumiAikawa/MegumiAikawa_0002_60.wav|MegumiAikawa|JA|何がや。雨が降ったらの話か?
+./MegumiAikawa/MegumiAikawa_0002_61.wav|MegumiAikawa|JA|それは長靴食ったことある奴が言えるセリフや!
+./MegumiAikawa/MegumiAikawa_0002_62.wav|MegumiAikawa|JA|長靴食って見せてから言え!
+./MegumiAikawa/MegumiAikawa_0002_63.wav|MegumiAikawa|JA|強引すぎるやろ!
+./MegumiAikawa/MegumiAikawa_0002_64.wav|MegumiAikawa|JA|魚みたいに言うな!
+./MegumiAikawa/MegumiAikawa_0002_65.wav|MegumiAikawa|JA|骨の部分って完全に鉄やろ!
+./MegumiAikawa/MegumiAikawa_0002_66.wav|MegumiAikawa|JA|食えてたまるか!歯折れるわ!
+./MegumiAikawa/MegumiAikawa_0002_67.wav|MegumiAikawa|JA|長靴は生地の部分が本体やろ!
+./MegumiAikawa/MegumiAikawa_0002_68.wav|MegumiAikawa|JA|それを皮言うな!
+./MegumiAikawa/MegumiAikawa_0002_69.wav|MegumiAikawa|JA|その大事な部分残すな!
+./MegumiAikawa/MegumiAikawa_0002_70.wav|MegumiAikawa|JA|そこ残したら長靴食べたことにならんわ!
+./MegumiAikawa/MegumiAikawa_0002_71.wav|MegumiAikawa|JA|いやいや支えとる鉄の部分と持ち手を食える方が
+./MegumiAikawa/MegumiAikawa_0002_72.wav|MegumiAikawa|JA|すごい感覚麻痺してきた!
+./MegumiAikawa/MegumiAikawa_0002_73.wav|MegumiAikawa|JA|うそつけ!
+./MegumiAikawa/MegumiAikawa_0002_74.wav|MegumiAikawa|JA|支えとる鉄の部分と持ち手
+./MegumiAikawa/MegumiAikawa_0002_75.wav|MegumiAikawa|JA|どんだけあげても骨せんべい的になるわ!
+./MegumiAikawa/MegumiAikawa_0002_76.wav|MegumiAikawa|JA|せやから強引やねん!
+./MegumiAikawa/MegumiAikawa_0002_77.wav|MegumiAikawa|JA|踊り食いしてみせえ!
+./MegumiAikawa/MegumiAikawa_0002_78.wav|MegumiAikawa|JA|それからその強引さで迫れ!
+./MegumiAikawa/MegumiAikawa_0002_79.wav|MegumiAikawa|JA|なら受け止めたる!
+./MegumiAikawa/MegumiAikawa_0002_80.wav|MegumiAikawa|JA|ちゃんと順序守れ!
+./MegumiAikawa/MegumiAikawa_0002_81.wav|MegumiAikawa|JA|食って見せてから言え!
+./MegumiAikawa/MegumiAikawa_0002_82.wav|MegumiAikawa|JA|どうなっとんねんこの会話!
+./MegumiAikawa/MegumiAikawa_0002_83.wav|MegumiAikawa|JA|傘なんて食えるわけないやろ!
+./MegumiAikawa/MegumiAikawa_0002_84.wav|MegumiAikawa|JA|どんだけスタジオ行かせたいねん!
+./MegumiAikawa/MegumiAikawa_0002_85.wav|MegumiAikawa|JA|もうそれ言いたいだけになっとるやろ!
+./MegumiAikawa/MegumiAikawa_0002_86.wav|MegumiAikawa|JA|完全にワロテモをとる!
+./MegumiAikawa/MegumiAikawa_0002_87.wav|MegumiAikawa|JA|もう言いたいだけになっとる!
+./MegumiAikawa/MegumiAikawa_0002_88.wav|MegumiAikawa|JA|もう瞑想とかギターの練習とか
+./MegumiAikawa/MegumiAikawa_0002_89.wav|MegumiAikawa|JA|どうでもよくなっとる!
+./MegumiAikawa/MegumiAikawa_0002_90.wav|MegumiAikawa|JA|スタジオ行こう!
+./MegumiAikawa/MegumiAikawa_0002_91.wav|MegumiAikawa|JA|って何遍言うとる思う?
+./MegumiAikawa/MegumiAikawa_0002_92.wav|MegumiAikawa|JA|知ってるか!
+./MegumiAikawa/MegumiAikawa_0002_93.wav|MegumiAikawa|JA|数えててたまるか!
+./RukaKayamori/RukaKayamori_2001_0.wav|RukaKayamori|JA|私の伝説はこれから始まる!
+./RukaKayamori/RukaKayamori_2001_1.wav|RukaKayamori|JA|おっと、なにくそ!
+./RukaKayamori/RukaKayamori_2001_2.wav|RukaKayamori|JA|くっ、きついぜ……
+./RukaKayamori/RukaKayamori_2001_3.wav|RukaKayamori|JA|こんにゃろ……くっ!
+./RukaKayamori/RukaKayamori_2001_4.wav|RukaKayamori|JA|ルカちゃんウィン!
+./RukaKayamori/RukaKayamori_2001_5.wav|RukaKayamori|JA|ま、こんな感じ?
+./RukaKayamori/RukaKayamori_2001_6.wav|RukaKayamori|JA|うへぇ、危なかったね
+./RukaKayamori/RukaKayamori_2001_7.wav|RukaKayamori|JA|あれぇ……
+./RukaKayamori/RukaKayamori_2001_8.wav|RukaKayamori|JA|悪い……守れなかった……
+./RukaKayamori/RukaKayamori_2001_9.wav|RukaKayamori|JA|みんな、ごめん……
+./RukaKayamori/RukaKayamori_2001_10.wav|RukaKayamori|JA|ルカちゃんアップ!
+./RukaKayamori/RukaKayamori_2001_11.wav|RukaKayamori|JA|ほんとに伝説始めちゃう?
+./RukaKayamori/RukaKayamori_2001_12.wav|RukaKayamori|JA|ルカちゃんマックス!
+./RukaKayamori/RukaKayamori_2001_13.wav|RukaKayamori|JA|やりましたー!
+./RukaKayamori/RukaKayamori_2001_14.wav|RukaKayamori|JA|いい予感!
+./RukaKayamori/RukaKayamori_2001_15.wav|RukaKayamori|JA|よっしゃ!
+./RukaKayamori/RukaKayamori_2001_16.wav|RukaKayamori|JA|セラフちゃんアップ!
+./RukaKayamori/RukaKayamori_2001_17.wav|RukaKayamori|JA|よーしよしよし、強くなったな
+./RukaKayamori/RukaKayamori_2001_18.wav|RukaKayamori|JA|まぁ、これぐらいは当然
+./RukaKayamori/RukaKayamori_2001_19.wav|RukaKayamori|JA|あたしの才能、果てしねーな
+./RukaKayamori/RukaKayamori_2001_20.wav|RukaKayamori|JA|これがあたしらのライブさ
+./RukaKayamori/RukaKayamori_2001_21.wav|RukaKayamori|JA|まさに伝説のライブとなったな
+./RukaKayamori/RukaKayamori_2001_22.wav|RukaKayamori|JA|あちゃー、ルカちゃんショック!
+./RukaKayamori/RukaKayamori_2002_0.wav|RukaKayamori|JA|ん?
+./RukaKayamori/RukaKayamori_2002_1.wav|RukaKayamori|JA|いや、また今度にしよう
+./RukaKayamori/RukaKayamori_2002_2.wav|RukaKayamori|JA|お、何ができる?
+./RukaKayamori/RukaKayamori_2002_3.wav|RukaKayamori|JA|花巻にしっぽく、しっぽくひとつこしらえてくんね、寒いな
+./RukaKayamori/RukaKayamori_2002_4.wav|RukaKayamori|JA|今夜は大変お寒うございます
+./RukaKayamori/RukaKayamori_2002_5.wav|RukaKayamori|JA|どうで、商売は?
+./RukaKayamori/RukaKayamori_2002_6.wav|RukaKayamori|JA|切れ味のいい寄せ
+./RukaKayamori/RukaKayamori_2002_7.wav|RukaKayamori|JA|自信あったのに
+./RukaKayamori/RukaKayamori_2002_8.wav|RukaKayamori|JA|披露するのは初めて
+./RukaKayamori/RukaKayamori_2002_9.wav|RukaKayamori|JA|一週、いや、100週ぐらいして逆に面白くなってきた、みたいな
+./RukaKayamori/RukaKayamori_2002_10.wav|RukaKayamori|JA|そのいぶしぎんな感じがたまらないんじゃん
+./RukaKayamori/RukaKayamori_2002_11.wav|RukaKayamori|JA|えぇ
+./RukaKayamori/RukaKayamori_2002_12.wav|RukaKayamori|JA|やべぇ、これは面白い
+./RukaKayamori/RukaKayamori_2002_13.wav|RukaKayamori|JA|腹がよじれていてぇ
+./RukaKayamori/RukaKayamori_2002_14.wav|RukaKayamori|JA|うん
+./RukaKayamori/RukaKayamori_2002_15.wav|RukaKayamori|JA|どうしたんだい
+./RukaKayamori/RukaKayamori_2002_16.wav|RukaKayamori|JA|怖いものを思い出しちまった
+./RukaKayamori/RukaKayamori_2002_17.wav|RukaKayamori|JA|それはなんだい、ぜひ教えてくれよ
+./RukaKayamori/RukaKayamori_2002_18.wav|RukaKayamori|JA|ま、まんじゅうが怖い
+./RukaKayamori/RukaKayamori_2002_19.wav|RukaKayamori|JA|え、よく知ってんな、その若さで
+./RukaKayamori/RukaKayamori_2002_20.wav|RukaKayamori|JA|もう持ちネタがないんだ、期待に応えられなくてごめん、日組
+./RukaKayamori/RukaKayamori_2002_21.wav|RukaKayamori|JA|何後ろ振り返ってんの?
+./RukaKayamori/RukaKayamori_2002_22.wav|RukaKayamori|JA|日組んは日組んじゃん
+./RukaKayamori/RukaKayamori_2002_23.wav|RukaKayamori|JA|うん
+./RukaKayamori/RukaKayamori_2002_24.wav|RukaKayamori|JA|かわいいじゃん
+./RukaKayamori/RukaKayamori_2002_25.wav|RukaKayamori|JA|てれ
+./RukaKayamori/RukaKayamori_2002_26.wav|RukaKayamori|JA|思い出せてよかったな
+./RukaKayamori/RukaKayamori_2002_27.wav|RukaKayamori|JA|また切れ味のいいネタを仕入れたら店に来るよ
+./RukaKayamori/RukaKayamori_2003_0.wav|RukaKayamori|JA|ねえねえユッキー 一緒にネタ見せしよ
+./RukaKayamori/RukaKayamori_2003_1.wav|RukaKayamori|JA|いつもキレ味のいいツッコミ入れてくれるじゃん それが今必要なんだよ
+./RukaKayamori/RukaKayamori_2003_2.wav|RukaKayamori|JA|とにかく一緒に来てよ 喉が渇いたなぁ
+./RukaKayamori/RukaKayamori_2003_3.wav|RukaKayamori|JA|お、ちょうど遠くにコンビニが見える 入ろう ボン
+./RukaKayamori/RukaKayamori_2003_4.wav|RukaKayamori|JA|このフライドチキン 生きてた頃の鶏に
+./RukaKayamori/RukaKayamori_2003_5.wav|RukaKayamori|JA|じゃあ左右非対称のハンガーをもらおう 最後にHDDVDでも見て回るか
+./RukaKayamori/RukaKayamori_2003_6.wav|RukaKayamori|JA|もうええわ
+./RukaKayamori/RukaKayamori_2003_7.wav|RukaKayamori|JA|キレ味のいいショートコント
+./RukaKayamori/RukaKayamori_2003_8.wav|RukaKayamori|JA|ええええええ ようめぐみん
+./RukaKayamori/RukaKayamori_2003_9.wav|RukaKayamori|JA|今こそ関西人のめぐみんの力が必要なんだ 付いてきてほしい
+./RukaKayamori/RukaKayamori_2003_10.wav|RukaKayamori|JA|うん
+./RukaKayamori/RukaKayamori_2003_11.wav|RukaKayamori|JA|喉が減ったなぁ お、ちょうど遠くにコンビニが見える 入ろう ボン
+./RukaKayamori/RukaKayamori_2003_12.wav|RukaKayamori|JA|コンビニのサービス
+./RukaKayamori/RukaKayamori_2003_13.wav|RukaKayamori|JA|超能力管理局から派遣されたバイト店員と目が合うと 店内にワープさせてくれるサービス
+./RukaKayamori/RukaKayamori_2003_14.wav|RukaKayamori|JA|もうええわ
+./RukaKayamori/RukaKayamori_2003_15.wav|RukaKayamori|JA|いつからトリオコントになった? うへーマジで怒鳴られてただけか
+./RukaKayamori/RukaKayamori_2003_16.wav|RukaKayamori|JA|なんだよ 戦火をあげられているからこそ普段はこんなんなんだ
+./RukaKayamori/RukaKayamori_2003_17.wav|RukaKayamori|JA|1950年代のジャズプレイヤーの名言の裏にあった私生活みたいなもんだ なんだよ見たかったのってセラフだったの?
+./RukaKayamori/RukaKayamori_2003_18.wav|RukaKayamori|JA|どういうところが?
+./RukaKayamori/RukaKayamori_2003_19.wav|RukaKayamori|JA|やめてやめて二刀流に慣れてきたところなんだから また一からになっちゃうじゃん
+./RukaKayamori/RukaKayamori_2005_0.wav|RukaKayamori|JA|私の伝説はこれから始まる ほい
+./RukaKayamori/RukaKayamori_2005_1.wav|RukaKayamori|JA|満足した? 今日はそうはいかないんだ
+./RukaKayamori/RukaKayamori_2005_2.wav|RukaKayamori|JA|ああ、なあヒグミ 最近うちのユッキーと仲良すぎ
+./RukaKayamori/RukaKayamori_2005_3.wav|RukaKayamori|JA|ユッキーのことどう思っているか聞かせてもらおう 一緒にいて楽しいってことかよ
+./RukaKayamori/RukaKayamori_2005_4.wav|RukaKayamori|JA|今ヒグミン笑ってたよ ヒグミンは自覚がないのかもしれない
+./RukaKayamori/RukaKayamori_2005_5.wav|RukaKayamori|JA|でもユッキーといて楽しいって証拠だ
+./RukaKayamori/RukaKayamori_2005_6.wav|RukaKayamori|JA|じゃあもう会えなくてもいいんだな
+./RukaKayamori/RukaKayamori_2005_7.wav|RukaKayamori|JA|やっぱり ヒグミンにとってユッキーは大切な人なんだ
+./RukaKayamori/RukaKayamori_2005_8.wav|RukaKayamori|JA|ああ もう会えないのは寂しいんでしょ
+./RukaKayamori/RukaKayamori_2005_9.wav|RukaKayamori|JA|じゃあ考えてみて
+./RukaKayamori/RukaKayamori_2005_10.wav|RukaKayamori|JA|ほら好きなんじゃん 自覚ないだけじゃん
+./RukaKayamori/RukaKayamori_2005_11.wav|RukaKayamori|JA|じゃあその世界に一人だけ連れて行けるとしたら 誰を選ぶ
+./RukaKayamori/RukaKayamori_2005_12.wav|RukaKayamori|JA|ほら即答しちゃってるじゃん 自分からたとえを出して時伏せようとしてあたしごときに速攻ボロを出してるじゃん
+./RukaKayamori/RukaKayamori_2005_13.wav|RukaKayamori|JA|つかさっち
+./RukaKayamori/RukaKayamori_2005_14.wav|RukaKayamori|JA|しかも覚醒してる
+./RukaKayamori/RukaKayamori_2005_15.wav|RukaKayamori|JA|やっぱりあるのか
+./RukaKayamori/RukaKayamori_2005_16.wav|RukaKayamori|JA|やっぱりあるのか
+./RukaKayamori/RukaKayamori_2005_17.wav|RukaKayamori|JA|カレリンいやカレンちゃん
+./RukaKayamori/RukaKayamori_2005_18.wav|RukaKayamori|JA|私だって驚いてるよみんなどうしたんだよ ヒグミンは味方だよ
+./RukaKayamori/RukaKayamori_2005_19.wav|RukaKayamori|JA|お玉さん
+./RukaKayamori/RukaKayamori_2005_20.wav|RukaKayamori|JA|そうだそれが知りたいんだよ
+./RukaKayamori/RukaKayamori_2005_21.wav|RukaKayamori|JA|うへー覚醒したつかさっちとカレンちゃんより怖い 逃げろー
+./SeikaHiguchi/SeikaHiguchi_1001_0.wav|SeikaHiguchi|JA|新鮮な死を見せてくれ
+./SeikaHiguchi/SeikaHiguchi_1001_1.wav|SeikaHiguchi|JA|いい
+./SeikaHiguchi/SeikaHiguchi_1001_2.wav|SeikaHiguchi|JA|悪くない
+./SeikaHiguchi/SeikaHiguchi_1001_3.wav|SeikaHiguchi|JA|やるなぁ まずいか
+./SeikaHiguchi/SeikaHiguchi_1001_4.wav|SeikaHiguchi|JA|面白い 精子をかけた戦いはやはりいいものだな
+./SeikaHiguchi/SeikaHiguchi_1001_5.wav|SeikaHiguchi|JA|なかなかに有益だったよ
+./SeikaHiguchi/SeikaHiguchi_1001_6.wav|SeikaHiguchi|JA|ついに この時が
+./SeikaHiguchi/SeikaHiguchi_1001_7.wav|SeikaHiguchi|JA|素晴らしい気分だ
+./SeikaHiguchi/SeikaHiguchi_1001_8.wav|SeikaHiguchi|JA|これが 死というもの
+./SeikaHiguchi/SeikaHiguchi_1001_9.wav|SeikaHiguchi|JA|か
+./SeikaHiguchi/SeikaHiguchi_1001_10.wav|SeikaHiguchi|JA|死というものか
+./SeikaHiguchi/SeikaHiguchi_1001_11.wav|SeikaHiguchi|JA|
+./SeikaHiguchi/SeikaHiguchi_1001_12.wav|SeikaHiguchi|JA|
+./SeikaHiguchi/SeikaHiguchi_1001_13.wav|SeikaHiguchi|JA|さらにいいデータが取れそうだ まさにオノガヒケンシャ
+./SeikaHiguchi/SeikaHiguchi_1001_14.wav|SeikaHiguchi|JA|さらにいいデータが取れそうだ
+./SeikaHiguchi/SeikaHiguchi_1001_15.wav|SeikaHiguchi|JA|一研究者でもこんなところまで来れるんだな データとしてはマックスか
+./SeikaHiguchi/SeikaHiguchi_1001_16.wav|SeikaHiguchi|JA|こんなところか いいんじゃないか
+./SeikaHiguchi/SeikaHiguchi_1001_17.wav|SeikaHiguchi|JA|いい いいぞ 面白い
+./SeikaHiguchi/SeikaHiguchi_1001_18.wav|SeikaHiguchi|JA|まだまだ楽しめそうだ そう来なくては
+./SeikaHiguchi/SeikaHiguchi_1001_19.wav|SeikaHiguchi|JA|つまらないことに付き合ってしまったな つまらないことに付き合ってしまったな
+./SeikaHiguchi/SeikaHiguchi_1001_20.wav|SeikaHiguchi|JA|なんというデータだ 素晴らしいじゃないか
+./SeikaHiguchi/SeikaHiguchi_1001_21.wav|SeikaHiguchi|JA|所詮遊び 気にすることはない
+./SeikaHiguchi/SeikaHiguchi_1002_0.wav|SeikaHiguchi|JA|お前は何をやっているんだ そんなものを見たいと思ったかしかも一番ベタなときそばじゃないか
+./SeikaHiguchi/SeikaHiguchi_1002_1.wav|SeikaHiguchi|JA|切れ味もクソもないわ 今まで受けてきたとでも言うのか
+./SeikaHiguchi/SeikaHiguchi_1002_2.wav|SeikaHiguchi|JA|初めてでよくときそばなんてぶっこんでくる気になったなぁ
+./SeikaHiguchi/SeikaHiguchi_1002_3.wav|SeikaHiguchi|JA|つまんないだろ 100周もしたらもう古典の息だろ
+./SeikaHiguchi/SeikaHiguchi_1002_4.wav|SeikaHiguchi|JA|くだらんは馬鹿らしい もう帰れ
+./SeikaHiguchi/SeikaHiguchi_1002_5.wav|SeikaHiguchi|JA|またお前か 今度こそ切れ味のいいあれを見せる気になったか
+./SeikaHiguchi/SeikaHiguchi_1002_6.wav|SeikaHiguchi|JA|お前のあれは特殊だからな 興味が尽きないのだよ
+./SeikaHiguchi/SeikaHiguchi_1002_7.wav|SeikaHiguchi|JA|まんじゅうこわいだろ
+./SeikaHiguchi/SeikaHiguchi_1002_8.wav|SeikaHiguchi|JA|それが響くと思ったか ときそばと同じ過ちを犯してるだろ
+./SeikaHiguchi/SeikaHiguchi_1002_9.wav|SeikaHiguchi|JA|見せる気がないんだったら帰れ
+./SeikaHiguchi/SeikaHiguchi_1003_0.wav|SeikaHiguchi|JA|いや、お前の言うヒグミンとやらが後ろにいるのかと思って
+./SeikaHiguchi/SeikaHiguchi_1003_1.wav|SeikaHiguchi|JA|まさか、この私のことか
+./SeikaHiguchi/SeikaHiguchi_1003_2.wav|SeikaHiguchi|JA|ヒグミン
+./SeikaHiguchi/SeikaHiguchi_1003_3.wav|SeikaHiguchi|JA|なんだこの感情は
+./SeikaHiguchi/SeikaHiguchi_1003_4.wav|SeikaHiguchi|JA|それはない
+./SeikaHiguchi/SeikaHiguchi_1003_5.wav|SeikaHiguchi|JA|ああ、これは屈辱だ
+./SeikaHiguchi/SeikaHiguchi_1003_6.wav|SeikaHiguchi|JA|長く味わってなかったから忘れていた
+./SeikaHiguchi/SeikaHiguchi_1003_7.wav|SeikaHiguchi|JA|お前は人をイラつかせる天才だな
+./SeikaHiguchi/SeikaHiguchi_1003_8.wav|SeikaHiguchi|JA|それで採用されたか
+./SeikaHiguchi/SeikaHiguchi_1003_9.wav|SeikaHiguchi|JA|キャンサーをもイラつかせて
+./SeikaHiguchi/SeikaHiguchi_1003_10.wav|SeikaHiguchi|JA|とむぐいさせられると群は考えたか
+./SeikaHiguchi/SeikaHiguchi_1003_11.wav|SeikaHiguchi|JA|だが残念、キャンサーはとむぐいはしない
+./TamaKunimi/TamaKunimi_0001_0.wav|TamaKunimi|JA|もしかして…暇…ですか?
+./TamaKunimi/TamaKunimi_0001_1.wav|TamaKunimi|JA|じゃあ、あれやっちゃいますか!
+./TamaKunimi/TamaKunimi_0001_2.wav|TamaKunimi|JA|何するんですかー!わくわくー!
+./TamaKunimi/TamaKunimi_0001_3.wav|TamaKunimi|JA|泣ける!ひたすら泣ける!
+./TamaKunimi/TamaKunimi_0001_4.wav|TamaKunimi|JA|玉ねぎをみじん切りしたという概念が曖昧!ひたすら曖昧!
+./TamaKunimi/TamaKunimi_0001_5.wav|TamaKunimi|JA|なんなら4等分ぐらいでいい!
+./TamaKunimi/TamaKunimi_0001_6.wav|TamaKunimi|JA|定義が曖昧!人それぞれ!
+./TamaKunimi/TamaKunimi_0001_7.wav|TamaKunimi|JA|想像以上のみじんさ!いつまでたっても終わらない!
+./TamaKunimi/TamaKunimi_0001_8.wav|TamaKunimi|JA|泣ける!ひたすら泣ける!
+./TamaKunimi/TamaKunimi_0001_9.wav|TamaKunimi|JA|心が鬼!泣いてるのに心は鬼!
+./TamaKunimi/TamaKunimi_0001_10.wav|TamaKunimi|JA|思ったより荷台が小さい!
+./TamaKunimi/TamaKunimi_0001_11.wav|TamaKunimi|JA|フルコーラス歌ってたった2匹って意外と少ない!
+./TamaKunimi/TamaKunimi_0001_12.wav|TamaKunimi|JA|意外とシビア!ルールが意外とシビア!
+./TamaKunimi/TamaKunimi_0001_13.wav|TamaKunimi|JA|歌うタイミングが大事!グリーングリーン大事!
+./TamaKunimi/TamaKunimi_0001_14.wav|TamaKunimi|JA|聞いたことない!サンキューサンキューなんて歌聞いたことがない!
+./TamaKunimi/TamaKunimi_0001_15.wav|TamaKunimi|JA|泣ける!ひたすら泣ける!
+./TamaKunimi/TamaKunimi_0001_16.wav|TamaKunimi|JA|メンタルがボロボロになる!戦う前にメンタルやられる!
+./TamaKunimi/TamaKunimi_0001_17.wav|TamaKunimi|JA|10!それは悲しくも美しく性質でうとましく華やかで華やかで時に横暴でくだらなく歪説でもあり美しい現実だ!とか!
+./TamaKunimi/TamaKunimi_0001_18.wav|TamaKunimi|JA|やってしまいました!ペナルティは?
+./TamaKunimi/TamaKunimi_0001_19.wav|TamaKunimi|JA|ムリムリムリムリムリヤツだけにされちゃう!
+./TamaKunimi/TamaKunimi_0001_20.wav|TamaKunimi|JA|死んじゃう!
+./TamaKunimi/TamaKunimi_0001_21.wav|TamaKunimi|JA|さっきから浮き沈んでるのに提案されるゲームが楽しすぎてそれどころじゃない!
+./TamaKunimi/TamaKunimi_0001_22.wav|TamaKunimi|JA|はい!何もかかってない!買いに行きましょう!
+./TamaKunimi/TamaKunimi_0001_23.wav|TamaKunimi|JA|やってやりましょう!
+./TamaKunimi/TamaKunimi_0001_24.wav|TamaKunimi|JA|グイー!この虫クソでかいです!クソでかいエサですからね!
+./TamaKunimi/TamaKunimi_0001_25.wav|TamaKunimi|JA|うずうず
+./TamaKunimi/TamaKunimi_0001_26.wav|TamaKunimi|JA|はい!エアギターで勝ってないのでまた勝負をしたいです!
+./TamaKunimi/TamaKunimi_0001_27.wav|TamaKunimi|JA|どうしてですか?
+./TamaKunimi/TamaKunimi_0001_28.wav|TamaKunimi|JA|身も蓋もなかった!
+./TamaKunimi/TamaKunimi_0001_29.wav|TamaKunimi|JA|引けない人も引けてるみたいになれるから楽しいんじゃなかったんですか!
+./TamaKunimi/TamaKunimi_0001_30.wav|TamaKunimi|JA|それは…ちゃんと私も楽しいです!
+./TamaKunimi/TamaKunimi_0001_31.wav|TamaKunimi|JA|そんな方法があるんですか?
+./TamaKunimi/TamaKunimi_0001_32.wav|TamaKunimi|JA|おっといいんですか?それは勝てちゃう予感!
+./TamaKunimi/TamaKunimi_0001_33.wav|TamaKunimi|JA|どうぞ!
+./TamaKunimi/TamaKunimi_0001_34.wav|TamaKunimi|JA|相変わらず変顔がすごい!生きる具合もたまらない!
+./TamaKunimi/TamaKunimi_0001_35.wav|TamaKunimi|JA|いいでしょう!ほぼ同じ条件なら負けません!
+./TamaKunimi/TamaKunimi_0001_36.wav|TamaKunimi|JA|どうでしたか?
+./TamaKunimi/TamaKunimi_0001_37.wav|TamaKunimi|JA|また負けた!どういう点で劣ってましたか?
+./TamaKunimi/TamaKunimi_0001_38.wav|TamaKunimi|JA|5本しかないのに!すごいイマジネーション力!
+./TamaKunimi/TamaKunimi_0001_39.wav|TamaKunimi|JA|親指、人差し指、中指、薬指、小指、最果て指!
+./TamaKunimi/TamaKunimi_0001_40.wav|TamaKunimi|JA|宇宙人かよ!みたいになります!
+./TamaKunimi/TamaKunimi_0001_41.wav|TamaKunimi|JA|そこまで追い詰めていたか…悔しいです
+./TamaKunimi/TamaKunimi_0001_42.wav|TamaKunimi|JA|ちなみにめっちゃ引いてましたけど勝負に夢中でほったらかしでした
+./TojoTsukasa/TojoTsukasa_1_0.wav|TojoTsukasa|JA|読んで
+./TojoTsukasa/TojoTsukasa_1_1.wav|TojoTsukasa|JA|もしかしてルカさんにはこの本ちょっと難しいかしら
+./TojoTsukasa/TojoTsukasa_1_2.wav|TojoTsukasa|JA|なら仕方ないわねー 泉さんに読んで判断してもらうことにするわ
+./TojoTsukasa/TojoTsukasa_1_3.wav|TojoTsukasa|JA|ありがとう
+./TojoTsukasa/TojoTsukasa_1_4.wav|TojoTsukasa|JA|何か?
+./TojoTsukasa/TojoTsukasa_1_5.wav|TojoTsukasa|JA|難しいかどうか聞くのだけど
+./TojoTsukasa/TojoTsukasa_1_6.wav|TojoTsukasa|JA|どうして
+./TojoTsukasa/TojoTsukasa_1_7.wav|TojoTsukasa|JA|え?
+./TojoTsukasa/TojoTsukasa_1_8.wav|TojoTsukasa|JA|何が?
+./TojoTsukasa/TojoTsukasa_1_9.wav|TojoTsukasa|JA|まさか異世界に訂正したのにワイチャン宇宙で引きこもってる剣の三冠が
+./TojoTsukasa/TojoTsukasa_1_10.wav|TojoTsukasa|JA|全否定
+./TojoTsukasa/TojoTsukasa_1_11.wav|TojoTsukasa|JA|普段現実的なハッカーだからこそこんなファンタジックな冒険談にワクワク心躍るものじゃない
+./TojoTsukasa/TojoTsukasa_1_12.wav|TojoTsukasa|JA|でもルカさんの話聞いてたら怖くなってきた
+./TojoTsukasa/TojoTsukasa_1_13.wav|TojoTsukasa|JA|ああ 自分が大好きな作品をけなされでもしたらって思うと
+./TojoTsukasa/TojoTsukasa_1_14.wav|TojoTsukasa|JA|助かるわー
+./TojoTsukasa/TojoTsukasa_2_0.wav|TojoTsukasa|JA|でも自分でもわからないな 異世界に転生したのにワイちゃん宇宙で引きこもっている件の3巻目を読み始めたのだけどどうにもすらすら読めなくて
+./TojoTsukasa/TojoTsukasa_2_1.wav|TojoTsukasa|JA|もしかして私は大好きなこの作品さえ読めないほど活字嫌いなのかしら と不安になっていたの
+./TojoTsukasa/TojoTsukasa_2_2.wav|TojoTsukasa|JA|なるほどこの3巻は小難しい感だったのね なら納得だわー
+./TojoTsukasa/TojoTsukasa_2_3.wav|TojoTsukasa|JA|知らないっ
+./TojoTsukasa/TojoTsukasa_2_4.wav|TojoTsukasa|JA|なんて言ってた 何その子供のおもちゃみたいなの
+./TojoTsukasa/TojoTsukasa_2_5.wav|TojoTsukasa|JA|確かにそう言われてみると決して優しいものではない気がしてくる なんだか自信が湧いてきた頑張って読み進めてみる
+./TojoTsukasa/TojoTsukasa_2_6.wav|TojoTsukasa|JA|ありがとうるかさん

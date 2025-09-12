@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Soldier
   m_EditorClassIdentifier: 
   code: soldier
-  unitName: Soldier
-  description: A simple unit.
+  unitName: Kayamori A
+  description: Basic melee unit
   healthpoints: 30
-  prefab: {fileID: 4893885829384556338, guid: 3b214c7ee536447728dfcb29fb018e2e, type: 3}
-  sprite: {fileID: 0}
+  prefab: {fileID: 559247847080589932, guid: 06d23605f1dd34a4489f1eba4be20ab2, type: 3}
+  sprite: {fileID: 21300000, guid: 93bd741d528470e48954fbc5a2fb03f5, type: 3}
   cost:
   - code: 0
     amount: 30
@@ -27,9 +27,9 @@ MonoBehaviour:
   attackRange: 1
   attackDamage: 20
   attackRate: 2
-  onSelectSound: {fileID: 8300000, guid: 52613f28a316c4ec2a02ca4d01eacf0d, type: 3}
-  onMoveValidSound: {fileID: 8300000, guid: d17c2a850b12741799bbde9458aa8005, type: 3}
-  onMoveInvalidSound: {fileID: 8300000, guid: 7684a035e88994f5387716d7239b1653, type: 3}
+  onSelectSound: {fileID: 8300000, guid: f7f076735837b6e43a2a8b10a272f702, type: 3}
+  onMoveValidSound: {fileID: 8300000, guid: e9c7f2dbc00a16549a83abf1db6ec939, type: 3}
+  onMoveInvalidSound: {fileID: 8300000, guid: 9bf34b878ade6b344a2b349645fcc332, type: 3}
   buildRange: 0
   buildPower: 0
   buildRate: 0

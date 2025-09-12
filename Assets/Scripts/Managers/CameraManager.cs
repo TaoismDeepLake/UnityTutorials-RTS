@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Camera))]
 public class CameraManager : MonoBehaviour
 {
-    public float translationSpeed = 60f;
+    public float translationSpeed = 120f;
     public float zoomSpeed = 30f;
     public float altitude = 40f;
 
