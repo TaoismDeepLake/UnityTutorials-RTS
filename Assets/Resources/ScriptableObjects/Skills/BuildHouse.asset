@@ -19,6 +19,6 @@ MonoBehaviour:
   unitReference: {fileID: 11400000, guid: 5c2ccb27116004dc1acffa053dc93179, type: 2}
   castTime: 0
   cooldown: 0
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: f3b0754287c9e894b85c472cd234a4ee, type: 2}
   onStartSound: {fileID: 0}
   onEndSound: {fileID: 0}

@@ -28,6 +28,8 @@ public class CharacterManager : UnitManager
     {
         NavMeshPath path = new NavMeshPath();
         agent.CalculatePath(targetPosition, path);
+        if (contextualSource.isPlaying)
+            contextualSource.Stop();
         if (path.status == NavMeshPathStatus.PathInvalid)
         {
             if (playSound)

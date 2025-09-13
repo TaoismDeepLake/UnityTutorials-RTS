@@ -21,6 +21,11 @@ public class TaskFollow : Node
     public override NodeState Evaluate()
     {
         object currentTarget = GetData("currentTarget");
+        if (currentTarget == null)
+        {
+            _state = NodeState.FAILURE;
+            return _state;
+        }
         Vector2 currentTargetOffset = (Vector2) GetData("currentTargetOffset");
         Transform target = (Transform)currentTarget;
 

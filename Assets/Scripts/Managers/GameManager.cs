@@ -41,7 +41,6 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        Debug.Log("The name of this game object is: " + this.name);
         canvasScaleFactor = canvas.scaleFactor;
 
         DataHandler.LoadGameData();
@@ -53,7 +52,7 @@ public class GameManager : MonoBehaviour
 
         Globals.NAV_MESH_SURFACE = terrain.GetComponent<NavMeshSurface>();
         Globals.UpdateNavMeshSurface();
-        terrain.GetComponent<Terrain>().materialTemplate = myTerrainMaterial;
+        // terrain.GetComponent<Terrain>().materialTemplate = myTerrainMaterial;
 
         // enable/disable FOV depending on game parameters
         fov.SetActive(gameGlobalParameters.enableFOV);

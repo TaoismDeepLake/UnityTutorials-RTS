@@ -44,8 +44,8 @@ public class CheckUnitInRange : Node
         {
             Parent.ClearData("currentTarget");
             Parent.ClearData("currentTargetOffset");
-            _manager.SetAnimatorBoolVariable("FieldRun", false);
-            _manager.SetAnimatorBoolVariable("BattleGuardLoop", false);
+            _manager.SetAnimatorBoolVariable("Move", false);
+            _manager.SetAnimatorBoolVariable("Attack", false);
             _state = NodeState.FAILURE;
             return _state;
         }
@@ -83,8 +83,8 @@ public class CheckUnitInRange : Node
                 {
                     Parent.ClearData("currentTarget");
                     Parent.ClearData("currentTargetOffset");
-                    _manager.SetAnimatorBoolVariable("FieldRun", false);
-                    _manager.SetAnimatorBoolVariable("BattleGuardLoop", false);
+                    _manager.SetAnimatorBoolVariable("Move", false);
+                    _manager.SetAnimatorBoolVariable("Attack", false);
                     _manager.SetAnimatorBoolVariable("FieldIdle", true);
                     _state = NodeState.FAILURE;
                     return _state;
@@ -92,7 +92,7 @@ public class CheckUnitInRange : Node
             }
             else if (_checkAttack)
             {
-                _manager.SetAnimatorBoolVariable("BattleGuardLoop", true);
+                _manager.SetAnimatorBoolVariable("Attack", true);
             }
         }
 

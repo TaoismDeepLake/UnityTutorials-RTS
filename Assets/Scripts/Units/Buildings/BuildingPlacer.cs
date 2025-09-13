@@ -22,12 +22,13 @@ public class BuildingPlacer : MonoBehaviour
         if (GameData.Instance == null)
         {
             Transform spawnpoints = GameObject.Find("Spawnpoints").transform;
-
-            BuildingData initialBuilding = GameManager.instance.gameGlobalParameters.initialBuilding;
             GamePlayersParameters p = GameManager.instance.gamePlayersParameters;
-            Vector3 pos;
             for (int i = 0; i < p.players.Length; i++)
             {
+                BuildingData[] initialBuildings = GameManager.instance.gameGlobalParameters.initialBuilding;
+                BuildingData initialBuilding = initialBuildings[i % initialBuildings.Length];
+
+                Vector3 pos;
                 pos = spawnpoints.GetChild(i).position;
                 SpawnBuilding(initialBuilding, i, pos);
                 if (i == p.myPlayerId)

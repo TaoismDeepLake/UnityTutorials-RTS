@@ -29,7 +29,7 @@ public class TaskMoveToDestination : Node
         if (d <= _manager.agent.stoppingDistance)
         {
             ClearData("destinationPoint");
-            _manager.SetAnimatorBoolVariable("FieldRun", false);
+            _manager.SetAnimatorBoolVariable("Move", false);
             _manager.SetAnimatorBoolVariable("FieldIdle", true);
             _state = NodeState.SUCCESS;
             return _state;

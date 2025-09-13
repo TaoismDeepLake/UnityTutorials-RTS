@@ -132,7 +132,7 @@ public class TaskTrySetDestinationOrTarget : Node
         Parent.Parent.SetData("currentTargetOffset", targetOffsets[i]);
         if (targetTransform != null)
             Parent.Parent.SetData("currentTarget", targetTransform);
-        _manager.SetAnimatorBoolVariable("FieldRun", true);
+        _manager.SetAnimatorBoolVariable("Move", true);
         Debug.Log($"Unit {i} moving");
     }
 
@@ -143,7 +143,7 @@ public class TaskTrySetDestinationOrTarget : Node
         ClearData("currentTarget");
         ClearData("currentTargetOffset");
         Parent.Parent.SetData("destinationPoint", targetPositions[i]);
-        _manager.SetAnimatorBoolVariable("FieldRun", true);
-        Debug.Log($"Unit {i} moving to {targetPositions[i]}");
+        _manager.SetAnimatorBoolVariable("Move", true);
+        //Debug.Log($"Unit {i} moving to {targetPositions[i]}");
     }
 }

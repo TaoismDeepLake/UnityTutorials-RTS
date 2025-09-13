@@ -14,7 +14,8 @@ public class GameGlobalParameters : GameParameters
     public float dayInitialRatio;
 
     [Header("Units")]
-    public BuildingData initialBuilding;
+    public BuildingData[] initialBuilding;
+    // public BuildingData initialBuilding;
     public AnimationCurve experienceEvolutionCurve;
     public AnimationCurve productionMultiplierCurve;
     public AnimationCurve attackDamageMultiplierCurve;

@@ -178,6 +178,7 @@ GameObject:
   - component: {fileID: 3089106069728804382}
   - component: {fileID: 536952351192249767}
   - component: {fileID: 7194304410480970314}
+  - component: {fileID: -2611860527996046598}
   m_Layer: 12
   m_Name: SoldierMolArms
   m_TagString: Unit
@@ -216,7 +217,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.26, y: 2, z: 4.91}
+  m_Size: {x: 5, y: 2, z: 5}
   m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &5789458852641688083
 Rigidbody:
@@ -246,6 +247,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bdf186d43afe4c7c801ab90d572e8b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animMapping:
+  - key: Attack
+    value: FieldIntimidate
+  - key: Move
+    value: FieldWalk
+  - key: Hit
+    value: BattleBuff01
   selectionCircle: {fileID: 999661851762225423}
   fov: {fileID: 3144180954054288704}
   meshRenderer: {fileID: 6212347096433464244}
@@ -276,7 +284,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 5635428185297251520}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 4
+  m_Radius: 2.3
   m_Speed: 4
   m_Acceleration: 4
   avoidancePriority: 50
@@ -400,6 +408,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-2611860527996046598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5635428185297251520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f62036ebedde047834d4782da1ba52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitManager: {fileID: 0}
+  skillManagers: []
+  castingCooldown: 0.2
+  wanderEnabled: 0
 --- !u!1001 &624291754323130164
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -645,6 +669,19 @@ PrefabInstance:
     - {fileID: 114446583156405122, guid: a9fab87b140af6e44a0d0932e69944e3, type: 3}
     - {fileID: 114313284611516537, guid: a9fab87b140af6e44a0d0932e69944e3, type: 3}
     - {fileID: 114185282173713053, guid: a9fab87b140af6e44a0d0932e69944e3, type: 3}
+    - {fileID: 114634301397806467, guid: a9fab87b140af6e44a0d0932e69944e3, type: 3}
+    - {fileID: 114219186114294213, guid: a9fab87b140af6e44a0d0932e69944e3, type: 3}
+    - {fileID: 114784500155158854, guid: a9fab87b140af6e44a0d0932e69944e3, type: 3}
+    - {fileID: 114863267500039502, guid: a9fab87b140af6e44a0d0932e69944e3, type: 3}
+    - {fileID: 114340995770611502, guid: a9fab87b140af6e44a0d0932e69944e3, type: 3}
+    - {fileID: 114614546395754664, guid: a9fab87b140af6e44a0d0932e69944e3, type: 3}
+    - {fileID: 114348877157203183, guid: a9fab87b140af6e44a0d0932e69944e3, type: 3}
+    - {fileID: 114299536614458489, guid: a9fab87b140af6e44a0d0932e69944e3, type: 3}
+    - {fileID: 114314826777477463, guid: a9fab87b140af6e44a0d0932e69944e3, type: 3}
+    - {fileID: 114522483342442875, guid: a9fab87b140af6e44a0d0932e69944e3, type: 3}
+    - {fileID: 114442500468453367, guid: a9fab87b140af6e44a0d0932e69944e3, type: 3}
+    - {fileID: 114831301550908513, guid: a9fab87b140af6e44a0d0932e69944e3, type: 3}
+    - {fileID: 114800785212851953, guid: a9fab87b140af6e44a0d0932e69944e3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a9fab87b140af6e44a0d0932e69944e3, type: 3}
 --- !u!4 &4463326847991753769 stripped
 Transform:

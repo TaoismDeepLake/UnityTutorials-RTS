@@ -17,4 +17,9 @@ public class AnimationListener : MonoBehaviour
             footStepSource.Play();
         }
     }
+
+    public void NarvyDefaultMove()
+    {
+        
+    }
 }

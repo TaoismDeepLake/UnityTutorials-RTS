@@ -108,14 +108,17 @@ public class Building : Unit
         _constructionHP = constructionHP;
         float constructionRatio = _constructionHP / (float) MaxHP;
 
+        if (constructionRatio >= 1)
+            _SetAlive(fromSavedData);
+
         int meshIndex = Mathf.Max(
             0,
             (int)(_constructionMeshes.Length * constructionRatio) - 1);
         Mesh m = _constructionMeshes[meshIndex];
+        if (_rendererMesh == null) return;
         _rendererMesh.sharedMesh = m;
 
-        if (constructionRatio >= 1)
-            _SetAlive(fromSavedData);
+        
     }
 
     public void CheckValidPlacement()

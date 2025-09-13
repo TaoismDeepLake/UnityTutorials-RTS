@@ -5,6 +5,14 @@ using UnityEngine;
 [RequireComponent(typeof(BoxCollider))]
 public class UnitManager : MonoBehaviour
 {
+    [System.Serializable]
+    public class StringPair
+    {
+        public string key;
+        public string value;
+    }
+
+    [SerializeField] public List<StringPair> _animMapping = new List<StringPair>();
     protected static MaterialPropertyBlock _materialPropertyBlock;
     protected static MaterialPropertyBlock _MaterialPropertyBlock
     {
@@ -41,13 +49,15 @@ public class UnitManager : MonoBehaviour
     private Vector3 _meshSize;
     public Vector3 MeshSize => _meshSize;
 
+    static bool alwaysShowHealthbar = false;
+
     private void Awake()
     {
         _meshSize = meshRenderer.GetComponent<Renderer>().bounds.size / 2;
 
         if (healthbar)
         {
-            healthbar.SetActive(false);
+            healthbar.SetActive(false || alwaysShowHealthbar);
             _healthbarRenderer = healthbar.GetComponent<Renderer>();
         }
     }
@@ -142,7 +152,7 @@ public class UnitManager : MonoBehaviour
         EventManager.TriggerEvent("DeselectedUnit", Unit);
         selectionCircle.SetActive(false);
         if (healthbar)
-            healthbar.SetActive(false);
+            healthbar.SetActive(false || alwaysShowHealthbar);
         _selected = false;
         _selectIndex = -1;
     }
@@ -188,6 +198,7 @@ public class UnitManager : MonoBehaviour
 
     private void _Die()
     {
+        Debug.Log(Unit.Data.unitName + " has died. uid is " + Unit.Uid);
         if (_selected)
             Deselect();
         Destroy(gameObject);
@@ -243,12 +254,33 @@ public class UnitManager : MonoBehaviour
     public void SetAnimatorBoolVariable(string name, bool boolValue)
     {
         if (animator == null) return;
-        animator.SetBool(name, boolValue);
+        if (string.IsNullOrEmpty(name)) return;
+
+        StringPair pair = _animMapping.Find(p => p.key == name);
+        if (pair == null)
+        {
+            animator.SetBool(name, boolValue);
+        }
+        else
+        {
+            animator.SetBool(pair.value, boolValue);
+        }
+
     }
 
     public void SetAnimatorTriggerVariable(string name)
     {
         if (animator == null) return;
-        animator.SetTrigger(name);
+        if (string.IsNullOrEmpty(name)) return;
+        StringPair pair = _animMapping.Find(p => p.key == name);
+        if (pair != null)
+        {
+            animator.SetTrigger(pair.value);
+        }
+        else
+        {
+            animator.SetTrigger(name);
+        }
+        
     }
 }

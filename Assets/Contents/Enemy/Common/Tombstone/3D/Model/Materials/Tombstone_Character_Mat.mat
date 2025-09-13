@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Tombstone_Character_Mat
+  m_Shader: {fileID: 4800000, guid: 1a97144e4ad27a04aafd70f7b915cedb, type: 3}
+  m_ShaderKeywords: _NORMALMAP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 881d0dbf628dcde4dbc47efa855ee9e5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Fogmask:
+        m_Texture: {fileID: 2800000, guid: 90449ddbdccb23c45b0c2e8f55287e0b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: c1d34ce2c0fe9af4784d3efce5451700, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTexture:
+        m_Texture: {fileID: 2800000, guid: 881d0dbf628dcde4dbc47efa855ee9e5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineWidthTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReceiveShadowTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadeTexture:
+        m_Texture: {fileID: 2800000, guid: c1d34ce2c0fe9af4784d3efce5451700, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadingGradeTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SphereAdd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UvAnimMaskTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _matcaptex:
+        m_Texture: {fileID: 2800000, guid: c2299c87db6617944867effebcc37dd7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AddBrightness: 0.4
+    - _AlphaCutoff: 0.5
+    - _AlphaToMask: 0
+    - _Attack: 1
+    - _AttackBrightness: 0
+    - _BlackPower: 0.58
+    - _BlendMode: 0
+    - _BlendOp: 0
+    - _BumpScale: 1
+    - _CrackAll: 0
+    - _CrackPoint1: 0
+    - _CrackUVTile: 6
+    - _Cull: 0
+    - _CullMode: 2
+    - _Cutoff: 0.5
+    - _DebugMode: 0
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EmissiveTile: 4.5
+    - _FakeFog: 1
+    - _Float0: 1
+    - _Float1: -0.02
+    - _FogPower: 0
+    - _FogStartPosition: 185
+    - _FogTransparency: 1
+    - _FresnelPower: 5
+    - _FresnelScale: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _IndirectLightIntensity: 0.1
+    - _LightColorAttenuation: 0
+    - _MToonVersion: 39
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _OutlineColorMode: 0
+    - _OutlineCullMode: 1
+    - _OutlineLightingMix: 1
+    - _OutlineScaledMaxDistance: 1
+    - _OutlineWidth: 0.5
+    - _OutlineWidthMode: 0
+    - _Parallax: 0.02
+    - _QueueControl: -1
+    - _QueueOffset: 0
+    - _ReceiveShadowRate: 1
+    - _ReceiveShadows: 1
+    - _RimFresnelPower: 1
+    - _RimLift: 0
+    - _RimLightingMix: 0
+    - _ShadeShift: 0
+    - _ShadeToony: 0.9
+    - _ShadingGradeRate: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _UvAnimRotation: 0
+    - _UvAnimScrollX: 0
+    - _UvAnimScrollY: 0
+    - _WhiteOffset: -0.6
+    - _ZWrite: 1
+    - __dirty: 1
+    - _bottom: 0
+    - _hight: 236
+    m_Colors:
+    - _AttackColor: {r: 2, g: 1.1682324, b: 0.1981132, a: 0}
+    - _ChangeColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorScale: {r: 1, g: 1, b: 1, a: 1}
+    - _CrackColor: {r: 0, g: 1.6313726, b: 5.992157, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissiveMaskTile: {r: 3, g: 5, b: 0, a: 0}
+    - _EmmisiveScroll: {r: 0, g: -0.3, b: 0, a: 0}
+    - _FogColor: {r: 0.77142346, g: 0.8679245, b: 0.64275545, a: 1}
+    - _FogSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _FogTile: {r: 1, g: 1, b: 0, a: 0}
+    - _FresnelColor: {r: 0, g: 0, b: 0, a: 0}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RimColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ShadeColor: {r: 0.97, g: 0.81, b: 0.86, a: 1}
+    - _UVSpeed: {r: 0.05, g: -0.1, b: 0, a: 0}
+    - _UVTile: {r: 3.5, g: 1.5, b: 0, a: 0}
+  m_BuildTextureStacks: []

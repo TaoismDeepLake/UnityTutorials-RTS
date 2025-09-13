@@ -318,9 +318,6 @@ GameObject:
   - component: {fileID: 574271838}
   - component: {fileID: 574271839}
   - component: {fileID: 574271840}
-  - component: {fileID: 574271841}
-  - component: {fileID: 574271842}
-  - component: {fileID: 574271843}
   m_Layer: 0
   m_Name: Booter
   m_TagString: Untagged
@@ -365,47 +362,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f429378d8ffab46a59550915a7f8f245, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &574271841
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 574271837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b681692194237074fa7bf488a027e9d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pinnedTerrainMaterial: {fileID: 2100000, guid: 98f685085b8d13745a7f1b89c0a77224,
-    type: 2}
-  forceDisableDrawInstanced: 1
---- !u!114 &574271842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 574271837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6e9b088b08a84148be4ebb6928c6fb0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  runOnSceneLoaded: 1
-  dryRun: 1
---- !u!114 &574271843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 574271837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02f92b8b46c2054409ee89ab609266ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &983291384

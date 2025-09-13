@@ -22,7 +22,11 @@ public class SkillManager : MonoBehaviour
 
     public void Trigger(GameObject target = null)
     {
-        if (!_ready) return;
+        if (!_ready)
+        {
+            Debug.Log("Skill " + skill.skillName + " is not ready yet.");
+            return;  
+        } 
         StartCoroutine(_WrappedTrigger(target));
     }
 
