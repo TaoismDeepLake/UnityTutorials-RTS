@@ -924,6 +924,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4463326847991753769}
   - component: {fileID: 4373719075949184073}
+  - component: {fileID: 3230327959903281700}
   m_Layer: 0
   m_Name: MolArmsDefault_Field
   m_TagString: Untagged
@@ -969,6 +970,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3230327959903281700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4459808733537316208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b7f8df5657d79d42abea458ba2e4f1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footStepSource: {fileID: 0}
+  footStepClips: []
 --- !u!1 &4459814732063203689
 GameObject:
   m_ObjectHideFlags: 0
@@ -4109,7 +4124,9 @@ MonoBehaviour:
   - key: Move
     value: FieldWalk
   - key: Hit
-    value: BattleBuff01
+    value: FieldEncounter
+  - key: Birth
+    value: FieldIdle
   selectionCircle: {fileID: 999661851762225423}
   fov: {fileID: 3144180954054288704}
   meshRenderer: {fileID: 6212347096433464244}
@@ -4430,15 +4447,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27ddadfce77ff44b0a7335bc76b87b4b, type: 3}
---- !u!1 &3144180954054288704 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2773615677039566475, guid: 27ddadfce77ff44b0a7335bc76b87b4b,
-    type: 3}
-  m_PrefabInstance: {fileID: 999661850634337227}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2159764315171886931 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1163763907868961944, guid: 27ddadfce77ff44b0a7335bc76b87b4b,
+    type: 3}
+  m_PrefabInstance: {fileID: 999661850634337227}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3144180954054288704 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2773615677039566475, guid: 27ddadfce77ff44b0a7335bc76b87b4b,
     type: 3}
   m_PrefabInstance: {fileID: 999661850634337227}
   m_PrefabAsset: {fileID: 0}

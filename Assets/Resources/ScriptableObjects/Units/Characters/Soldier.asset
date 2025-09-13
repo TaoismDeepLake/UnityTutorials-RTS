@@ -27,8 +27,8 @@ MonoBehaviour:
   skills: []
   fieldOfView: 16
   attackRange: 1
-  attackDamage: 20
-  attackRate: 2
+  attackDamage: 10
+  attackRate: 0.5
   onSelectSound: {fileID: 8300000, guid: f7f076735837b6e43a2a8b10a272f702, type: 3}
   onMoveValidSound: {fileID: 8300000, guid: e9c7f2dbc00a16549a83abf1db6ec939, type: 3}
   onMoveInvalidSound: {fileID: 8300000, guid: 9bf34b878ade6b344a2b349645fcc332, type: 3}

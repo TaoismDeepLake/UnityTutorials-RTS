@@ -253,7 +253,9 @@ MonoBehaviour:
   - key: Move
     value: FieldWalk
   - key: Hit
-    value: BattleBuff01
+    value: FieldEncounter
+  - key: Birth
+    value: FieldIdle
   selectionCircle: {fileID: 999661851762225423}
   fov: {fileID: 3144180954054288704}
   meshRenderer: {fileID: 6212347096433464244}
@@ -275,6 +277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fbfda5af9ffc4878bf566c3a98994d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  info: CharacterBT
 --- !u!195 &3089106069728804382
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -285,7 +288,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 2.3
-  m_Speed: 4
+  m_Speed: 3
   m_Acceleration: 4
   avoidancePriority: 50
   m_AngularSpeed: 45
@@ -683,6 +686,12 @@ PrefabInstance:
     - {fileID: 114831301550908513, guid: a9fab87b140af6e44a0d0932e69944e3, type: 3}
     - {fileID: 114800785212851953, guid: a9fab87b140af6e44a0d0932e69944e3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a9fab87b140af6e44a0d0932e69944e3, type: 3}
+--- !u!1 &4459808733537316208 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1568106363703589, guid: a9fab87b140af6e44a0d0932e69944e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 4459124679292648533}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4463326847991753769 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4805260638507132, guid: a9fab87b140af6e44a0d0932e69944e3,
@@ -695,6 +704,20 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 4459124679292648533}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5127863708564409463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4459808733537316208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b7f8df5657d79d42abea458ba2e4f1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footStepSource: {fileID: 0}
+  footStepClips: []
 --- !u!1001 &7700350797649778172
 PrefabInstance:
   m_ObjectHideFlags: 0

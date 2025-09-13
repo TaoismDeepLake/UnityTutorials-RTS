@@ -32,13 +32,15 @@ public class CharacterManager : UnitManager
             contextualSource.Stop();
         if (path.status == NavMeshPathStatus.PathInvalid)
         {
-            if (playSound)
+            if (_selectIndex == 0 && playSound)
+            {
                 contextualSource.PlayOneShot(((CharacterData)Unit.Data).onMoveInvalidSound);
+            }
             return false;
         }
 
         agent.destination = targetPosition;
-        if (playSound)
+        if (_selectIndex == 0 && playSound)
             contextualSource.PlayOneShot(((CharacterData)Unit.Data).onMoveValidSound);
         return true;
     }

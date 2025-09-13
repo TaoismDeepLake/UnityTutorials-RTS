@@ -16,7 +16,7 @@ MonoBehaviour:
   unitName: MolArms Blue
   description: Slower, but more durable
   healthpoints: 150
-  prefab: {fileID: 5635428185297251520, guid: dd86e7d70ecd8914eac7ada896a67954, type: 3}
+  prefab: {fileID: 5635428185297251520, guid: 3e61e9e29b792504ab8249f253e7a850, type: 3}
   corpsePrefab: {fileID: 0}
   sprite: {fileID: 0}
   cost:
@@ -27,7 +27,7 @@ MonoBehaviour:
   fieldOfView: 32
   attackRange: 3.5
   attackDamage: 8
-  attackRate: 4
+  attackRate: 0.5
   onSelectSound: {fileID: 0}
   onMoveValidSound: {fileID: 0}
   onMoveInvalidSound: {fileID: 0}

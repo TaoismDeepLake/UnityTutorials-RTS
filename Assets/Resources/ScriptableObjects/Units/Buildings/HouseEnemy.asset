@@ -15,7 +15,7 @@ MonoBehaviour:
   code: house_enemy
   unitName: Cancer Base
   description: Main Base
-  healthpoints: 800
+  healthpoints: 200
   prefab: {fileID: 4893885829384556338, guid: db4aeff2ecd9dc643bd0707ffe01ba49, type: 3}
   corpsePrefab: {fileID: 0}
   sprite: {fileID: 0}
@@ -28,6 +28,9 @@ MonoBehaviour:
   skills:
   - {fileID: 11400000, guid: 440d2ab996dd1cd40b4ef1c5d611df2f, type: 2}
   - {fileID: 11400000, guid: 440d2ab996dd1cd40b4ef1c5d611df2f, type: 2}
+  - {fileID: 11400000, guid: 0c89edaf50309cd47aae0a7455fdbc6e, type: 2}
+  - {fileID: 11400000, guid: 1609bce49079e8a40a2cac5e0dca2b8b, type: 2}
+  - {fileID: 11400000, guid: d7be60589122fbf46b3e5ee5eb6a8007, type: 2}
   fieldOfView: 35
   attackRange: 10
   attackDamage: 0

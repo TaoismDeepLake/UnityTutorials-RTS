@@ -17,6 +17,7 @@ MonoBehaviour:
   description: Big melee unit.
   healthpoints: 100
   prefab: {fileID: 5635428185297251520, guid: dd86e7d70ecd8914eac7ada896a67954, type: 3}
+  corpsePrefab: {fileID: 0}
   sprite: {fileID: 0}
   cost:
   - code: 0
@@ -26,7 +27,7 @@ MonoBehaviour:
   fieldOfView: 32
   attackRange: 3.5
   attackDamage: 6
-  attackRate: 4
+  attackRate: 0.25
   onSelectSound: {fileID: 0}
   onMoveValidSound: {fileID: 0}
   onMoveInvalidSound: {fileID: 0}

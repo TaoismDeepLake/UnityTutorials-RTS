@@ -37,7 +37,7 @@ public class UnitManager : MonoBehaviour
 
     private bool _selected = false;
     public bool IsSelected { get => _selected; }
-    private int _selectIndex = -1;
+    protected int _selectIndex = -1;
     public int SelectIndex { get => _selectIndex; }
 
     public GameObject healthbar;
@@ -192,11 +192,14 @@ public class UnitManager : MonoBehaviour
             UpdateHealthbar();
         }
 
-        // play sound
-        contextualSource.PlayOneShot(Unit.Data.onSelectSound);
-
         _selected = true;
         _selectIndex = Globals.SELECTED_UNITS.Count - 1;
+
+        if (_selectIndex == 0)
+        {
+            // play sound
+            contextualSource.PlayOneShot(Unit.Data.onSelectSound);
+        }
     }
 
     private void _Die()

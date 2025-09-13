@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a57a855255a4545a0014b6b052d14c, type: 3}
   m_Name: ProMolArmsBlue
   m_EditorClassIdentifier: 
-  code: produce_molarms
-  skillName: MolArms
-  description: Produce a MolArms
+  code: produce_molarms_u
+  skillName: Train MolArms Blue
+  description: Slow but durable mutant
   type: 0
-  unitReference: {fileID: 11400000, guid: e464eaa9baf536e44a20cac33e64fa56, type: 2}
+  unitReference: {fileID: 11400000, guid: 2e34751d334be3e4db8ca1fbca12aa09, type: 2}
   castTime: 1
   cooldown: 1
   sprite: {fileID: 0}

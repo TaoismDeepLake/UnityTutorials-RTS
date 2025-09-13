@@ -16,7 +16,7 @@ MonoBehaviour:
   unitName: MolArms Yellow
   description: Faster but weaker
   healthpoints: 80
-  prefab: {fileID: 5635428185297251520, guid: dd86e7d70ecd8914eac7ada896a67954, type: 3}
+  prefab: {fileID: 5635428185297251520, guid: ca720c691257b804584d2dcb19f3efcb, type: 3}
   corpsePrefab: {fileID: 0}
   sprite: {fileID: 0}
   cost:
@@ -27,7 +27,7 @@ MonoBehaviour:
   fieldOfView: 48
   attackRange: 3.5
   attackDamage: 4
-  attackRate: 6
+  attackRate: 1
   onSelectSound: {fileID: 0}
   onMoveValidSound: {fileID: 0}
   onMoveInvalidSound: {fileID: 0}

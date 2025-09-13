@@ -13,6 +13,8 @@ public class TaskTrySetDestinationOrTarget : Node
     private const float _samplingRange = 12f;
     private const float _samplingRadius = 1.8f;
 
+    bool _isAIControlled = false;
+
     public TaskTrySetDestinationOrTarget(CharacterManager manager) : base()
     {
         _manager = manager;
@@ -20,6 +22,7 @@ public class TaskTrySetDestinationOrTarget : Node
 
     public override NodeState Evaluate()
     {
+        //Only works by player input
         if (_manager.IsSelected && Input.GetMouseButtonUp(1))
         {
             _ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -33,7 +36,7 @@ public class TaskTrySetDestinationOrTarget : Node
                 UnitManager um = _raycastHit.collider.GetComponent<UnitManager>();
                 if (um != null)
                 {
-                    Parent.Parent.SetData("currentTarget", _raycastHit.transform);
+                    Parent.Parent.SetData("currentTarget", um.transform);
                     if (_manager.SelectIndex == 0)
                     {
                         List<Vector2> targetOffsets = _ComputeFormationTargetOffsets();
@@ -60,7 +63,16 @@ public class TaskTrySetDestinationOrTarget : Node
                 return _state;
             }
         }
-        _state = NodeState.FAILURE;
+        if (_isAIControlled)
+        {
+            //skip check for a tick.
+            _isAIControlled = false;
+            return _state;
+        }
+        else
+        {
+            _state = NodeState.FAILURE;    
+        }
         return _state;
     }
 
@@ -136,14 +148,48 @@ public class TaskTrySetDestinationOrTarget : Node
         Debug.Log($"Unit {i} moving");
     }
 
+    public void SetFormationTargetOffsetAI(List<Vector2> targetOffsets, Transform targetTransform = null)
+    {
+        int i = 0; // always the first unit (the AI controls one unit at a time)
+        ClearData("destinationPoint");
+        Parent.Parent.SetData("currentTargetOffset", Vector2.zero); // always the leader unit
+        if (targetTransform != null)
+            Parent.Parent.SetData("currentTarget", targetTransform);
+        _manager.SetAnimatorBoolVariable("Move", true);
+        
+    }
+
     public void SetFormationTargetPosition(List<Vector3> targetPositions)
     {
         int i = _manager.SelectIndex;
         if (i < 0) return; // (unit is not selected anymore)
+        SetFormationTargetPosition(targetPositions, i);
+    }
+
+    public void SetFormationTargetPosition(List<Vector3> targetPositions, int i)
+    {
         ClearData("currentTarget");
         ClearData("currentTargetOffset");
         Parent.Parent.SetData("destinationPoint", targetPositions[i]);
         _manager.SetAnimatorBoolVariable("Move", true);
         //Debug.Log($"Unit {i} moving to {targetPositions[i]}");
+    }
+
+    public void SetTarget(UnitManager um)
+    {
+        // ClearData("currentTarget");
+        // ClearData("currentTargetOffset");
+        Parent.Parent.SetData("currentTargetOffset", Vector2.zero); // always the leader unit
+        Parent.Parent.SetData("destinationPoint", um.transform.position);
+        _manager.SetAnimatorBoolVariable("Move", true);
+        Parent.Parent.SetData("currentTarget", um.transform);
+
+        // List<Vector2> targetOffsets = new List<Vector2>();
+        // // leader unit goes to the exact target point
+        // targetOffsets.Add(Vector2.zero);
+        // EventManager.TriggerEvent("TargetFormationAI", targetOffsets);
+        //OnTargetAI
+        _state = NodeState.SUCCESS;
+        _isAIControlled = true;
     }
 }

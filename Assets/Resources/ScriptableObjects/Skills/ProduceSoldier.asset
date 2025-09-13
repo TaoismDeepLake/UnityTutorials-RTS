@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: ProduceSoldier
   m_EditorClassIdentifier: 
   code: produce_soldier
-  skillName: Produce a Soldier
-  description: Produce a soldier.
+  skillName: "\u8305\u68EE\u5FA9\u88FD\u4EBA"
+  description: "\u57FA\u672C\u7684\u8FD1\u6218\u5355\u4F4D\u3002"
   type: 0
   unitReference: {fileID: 11400000, guid: af2ee0fdd02834d3c803b80bb83fab25, type: 2}
   castTime: 1

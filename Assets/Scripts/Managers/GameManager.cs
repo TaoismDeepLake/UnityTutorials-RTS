@@ -71,7 +71,7 @@ public class GameManager : MonoBehaviour
     {
         Bounds b = GameObject.Find("Terrain").GetComponent<Terrain>().terrainData.bounds;
 
-        terrainSize = (int) b.size.x;
+        terrainSize = (int)b.size.x;
         float p = terrainSize / 2;
 
         minimapAnchor.position = new Vector3(p, 0, p);
@@ -149,5 +149,18 @@ public class GameManager : MonoBehaviour
 #if !UNITY_EDITOR
         DataHandler.SaveGameData();
 #endif
+    }
+    
+
+    //todo: optimize this function by storing all units in a list instead of searching them all the time
+    public List<UnitManager> GetAllUnitsForPlayer(int playerId)
+    {
+        List<UnitManager> units = new List<UnitManager>();
+        foreach (UnitManager um in FindObjectsOfType<UnitManager>())
+        {
+            if (um.Unit.Owner == playerId)
+                units.Add(um);
+        }
+        return units;
     }
 }

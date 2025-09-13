@@ -156,6 +156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fdf35a00729a4499867e06c7de3f083, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  info: CharacterBT
 --- !u!208 &-2942983341653854509
 NavMeshObstacle:
   m_ObjectHideFlags: 0
@@ -422,6 +423,9 @@ MonoBehaviour:
   unitManager: {fileID: 0}
   skillManagers: []
   castingCooldown: 0.2
+  buildingCooldown: 5
+  hordeAttackCooldown: 60
+  curHordeCooldown: 35
 --- !u!1001 &497502521834336570
 PrefabInstance:
   m_ObjectHideFlags: 0

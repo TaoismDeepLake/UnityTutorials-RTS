@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   code: produce_molarms
   skillName: MolArms
-  description: Produce a MolArms
+  description: "\u751F\u4EA7\u4E00\u53EAMolArms\uFF0C\u7F13\u6162\u7684\u5927\u578B\u5355\u4F4D"
   type: 0
   unitReference: {fileID: 11400000, guid: e464eaa9baf536e44a20cac33e64fa56, type: 2}
   castTime: 1
