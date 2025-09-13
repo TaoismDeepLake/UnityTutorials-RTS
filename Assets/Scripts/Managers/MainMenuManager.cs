@@ -188,6 +188,7 @@ public class MainMenuManager : MonoBehaviour
 
     private IEnumerator _TogglingPlayer(RectTransform rt, float from, float to, float width)
     {
+        if (rt == null) yield break;
         rt.sizeDelta = new Vector2(to, from);
         float t = 0f;
         while (t < 0.5f)
@@ -224,6 +225,7 @@ public class MainMenuManager : MonoBehaviour
 
     public void StartNewGame()
     {
+        if (CoreBooter.instance.isLoading) return;
         CoreDataHandler.instance.SetGameUID(_selectedMap);
 
         // save player parameters for this map
