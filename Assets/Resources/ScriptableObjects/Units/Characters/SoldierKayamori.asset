@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3d7baebcf3947ce9b0366a4348bef9, type: 3}
+  m_Name: SoldierKayamori
+  m_EditorClassIdentifier: 
+  code: soldier
+  unitName: Kayamori
+  description: Basic melee unit
+  healthpoints: 30
+  prefab: {fileID: 559247847080589932, guid: 06d23605f1dd34a4489f1eba4be20ab2, type: 3}
+  corpsePrefab: {fileID: 8664697382820916336, guid: 6a0cb8aab7eb8d54b8f64093b779f159,
+    type: 3}
+  sprite: {fileID: 21300000, guid: 93bd741d528470e48954fbc5a2fb03f5, type: 3}
+  cost:
+  - code: 0
+    amount: 30
+  canProduce: 
+  skills: []
+  fieldOfView: 16
+  attackRange: 1
+  attackDamage: 10
+  attackRate: 0.5
+  onSelectSound: {fileID: 8300000, guid: f7f076735837b6e43a2a8b10a272f702, type: 3}
+  onMoveValidSound: {fileID: 8300000, guid: e9c7f2dbc00a16549a83abf1db6ec939, type: 3}
+  onMoveInvalidSound: {fileID: 8300000, guid: 9bf34b878ade6b344a2b349645fcc332, type: 3}
+  buildRange: 0
+  buildPower: 0
+  buildRate: 0

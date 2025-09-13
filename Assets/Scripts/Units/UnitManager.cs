@@ -101,6 +101,21 @@ public class UnitManager : MonoBehaviour
         UnitManager um = target.GetComponent<UnitManager>();
         if (um == null) return;
         um.TakeHit(Unit.AttackDamage);
+
+        if (um is CharacterManager && ((CharacterManager)um).retaliate)
+        {
+            //if attacker is twice further than curent target, do not retaliate, so it won't panic at horde attack
+            float distanceToAttacker = Vector3.Distance(um.transform.position, transform.position);
+            if (distanceToAttacker < 2 * Unit.AttackRange) return;
+
+            Transform myTransform = transform;
+            Vector3 directionToAttacker = (myTransform.position - target.position).normalized;
+            Vector3 spawnPosition = myTransform.position + directionToAttacker * 2;
+            CharacterBT bt = ((CharacterManager)um).GetComponent<CharacterBT>();
+            if (bt == null) return;
+            bt.SetTarget(this);
+            // ((CharacterManager)um).MoveTo(spawnPosition, false);
+        }
     }
 
     public void TakeHit(int attackPoints)

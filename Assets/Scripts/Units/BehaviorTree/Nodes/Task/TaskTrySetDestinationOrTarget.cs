@@ -177,6 +177,8 @@ public class TaskTrySetDestinationOrTarget : Node
 
     public void SetTarget(UnitManager um)
     {
+        Transform currentTarget = GetData("currentTarget") as Transform;
+        if (currentTarget == um.transform) return; // already targeting this unit
         // ClearData("currentTarget");
         // ClearData("currentTargetOffset");
         Parent.Parent.SetData("currentTargetOffset", Vector2.zero); // always the leader unit

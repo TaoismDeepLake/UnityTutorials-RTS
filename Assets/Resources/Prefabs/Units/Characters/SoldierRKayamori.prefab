@@ -90,7 +90,7 @@ MonoBehaviour:
   - key: Move
     value: FieldRun
   - key: Hit
-    value: BattleVictoryStart
+    value: BattleTeleportDisappear
   - key: Birth
     value: BattleTeleportAppear
   selectionCircle: {fileID: 4911258750216955811}
@@ -101,6 +101,7 @@ MonoBehaviour:
   ownerMaterialSlotIndex: 0
   healthbar: {fileID: 498913704466424384}
   agent: {fileID: 7145380259906332850}
+  retaliate: 1
   characterCollider: {fileID: 2968556799993604220}
 --- !u!114 &7562569066385363976
 MonoBehaviour:

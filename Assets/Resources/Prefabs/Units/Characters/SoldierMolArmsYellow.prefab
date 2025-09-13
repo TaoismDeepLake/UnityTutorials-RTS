@@ -4135,6 +4135,7 @@ MonoBehaviour:
   ownerMaterialSlotIndex: 0
   healthbar: {fileID: 5700351760295900396}
   agent: {fileID: 3089106069728804382}
+  retaliate: 1
   characterCollider: {fileID: 6973162434279145168}
 --- !u!114 &2379145907280003748
 MonoBehaviour:
@@ -4162,7 +4163,7 @@ NavMeshAgent:
   m_Speed: 5
   m_Acceleration: 5
   avoidancePriority: 50
-  m_AngularSpeed: 90
+  m_AngularSpeed: 180
   m_StoppingDistance: 2
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
@@ -4297,7 +4298,7 @@ MonoBehaviour:
   unitManager: {fileID: 0}
   skillManagers: []
   castingCooldown: 0.2
-  wanderEnabled: 0
+  wanderEnabled: 1
 --- !u!1001 &624291754323130164
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -8,6 +8,7 @@ public class CharacterManager : UnitManager
     public NavMeshAgent agent;
 
     private Character _character;
+    public bool retaliate = true;
     public override Unit Unit
     {
         get { return _character; }
