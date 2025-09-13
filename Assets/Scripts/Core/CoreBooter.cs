@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class CoreBooter : MonoBehaviour
 {
     public static CoreBooter instance;
+    public bool isLoading = false;
 
     public UnityEngine.UI.Image sceneTransitioner;
 
@@ -40,6 +41,7 @@ public class CoreBooter : MonoBehaviour
     public void LoadMenu() => StartCoroutine(_SwitchingScene("menu"));
     public void LoadMap(string mapReference)
     {
+        isLoading = true;
         MapData d = Resources.Load<MapData>($"ScriptableObjects/Maps/{mapReference}");
         CoreDataHandler.instance.SetMapData(d);
         string s = d.sceneName;
@@ -76,6 +78,7 @@ public class CoreBooter : MonoBehaviour
         }
 
         sceneTransitioner.color = Color.clear;
+        isLoading = false;
     }
 
     private AsyncOperation _LoadMap(string map)
