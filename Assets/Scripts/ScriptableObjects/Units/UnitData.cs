@@ -10,6 +10,7 @@ public class UnitData : ScriptableObject
     public string description;
     public int healthpoints;
     public GameObject prefab;
+    public GameObject corpsePrefab;
     public Sprite sprite;
     public List<ResourceValue> cost;
     public InGameResource[] canProduce;

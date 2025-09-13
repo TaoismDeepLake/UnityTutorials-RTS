@@ -59,7 +59,7 @@ public class CheckUnitInRange : Node
             Unit u = ((Transform)currentTarget).GetComponent<UnitManager>().Unit;
             int targetOwner = u.Owner;
 
-            if (targetOwner == GameManager.instance.gamePlayersParameters.myPlayerId)
+            if (targetOwner == _manager.Unit.Owner)
             {
                 CharacterManager cm = (CharacterManager)_manager;
                 int buildPower = ((CharacterData)cm.Unit.Data).buildPower;

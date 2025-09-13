@@ -68,7 +68,7 @@ public static class Globals
                 };
     }
 
-    public static bool CanBuy(List<ResourceValue> cost)
+    public static bool MainPlayerCanBuy(List<ResourceValue> cost)
     {
         return CanBuy(GameManager.instance.gamePlayersParameters.myPlayerId, cost);
     }

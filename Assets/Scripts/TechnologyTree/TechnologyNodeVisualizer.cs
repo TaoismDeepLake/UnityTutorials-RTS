@@ -84,7 +84,7 @@ public class TechnologyNodeVisualizer
             b.onClick.AddListener(() =>
             {
                 if (_node.Unlocked) return;
-                if (!Globals.CanBuy(_node.researchCost)) return;
+                if (!Globals.MainPlayerCanBuy(_node.researchCost)) return;
                 g.transform.Find("ProgressBar").gameObject.SetActive(true);
                 EventManager.TriggerEvent("StartedTechTreeNodeUnlock", _node.code);
             });

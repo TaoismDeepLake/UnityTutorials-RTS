@@ -193,6 +193,8 @@ public class MainMenuManager : MonoBehaviour
         float t = 0f;
         while (t < 0.5f)
         {
+            //if you click again before the animation ends
+            if (rt == null) yield break;
             rt.sizeDelta = new Vector2(Mathf.Lerp(from, to, t * 2f), width);
             t += Time.deltaTime;
             yield return null;

@@ -98,6 +98,8 @@ public class UnitsSelection : MonoBehaviour
         );
         GameObject[] selectableUnits = GameObject.FindGameObjectsWithTag("Unit");
         bool inBounds;
+        GameObject onlyEnemyUnit = null;
+        bool shouldDropEnemies = false;
         foreach (GameObject unit in selectableUnits)
         {
             inBounds = selectionBounds.Contains(
@@ -105,15 +107,36 @@ public class UnitsSelection : MonoBehaviour
             );
             if (inBounds)
             {
+                //you can select enemy units only if no friendly units are selected, and only one enemy.
                 if (unit.GetComponent<UnitManager>().Unit.Owner != GameManager.instance.gamePlayersParameters.myPlayerId)
                 {
-                    continue;
+                    //met more than one enemy or friendly, drop all enemies from selection
+                    if (onlyEnemyUnit != null)
+                    {
+                        shouldDropEnemies = true;
+                    }
+                    if (shouldDropEnemies)
+                    {
+                        continue;
+                    }
+                    onlyEnemyUnit = unit;
+                    //don't select it yet, wait until the end of the loop to see if there are more enemies or friendlies
                 }
-                unit.GetComponent<UnitManager>().Select();
-                //can only select units of the same player
+                else
+                {
+                    //if we selected a friendly unit, drop all enemies from selection
+                    shouldDropEnemies = true;
+                    unit.GetComponent<UnitManager>().Select();
+                }
             }
             else
                 unit.GetComponent<UnitManager>().Deselect();
+        }
+        
+        if (!shouldDropEnemies)
+        {
+            if (onlyEnemyUnit != null)
+                onlyEnemyUnit.GetComponent<UnitManager>().Select();
         }
     }
 

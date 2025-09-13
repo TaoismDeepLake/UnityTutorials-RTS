@@ -8,12 +8,18 @@ public class CheckTargetIsMine: Node
 
     public CheckTargetIsMine(UnitManager manager) : base()
     {
-        _myPlayerId = GameManager.instance.gamePlayersParameters.myPlayerId;
+        //patched. originally was always main player id
+        _myPlayerId = manager.Unit.Owner;
     }
 
     public override NodeState Evaluate()
     {
         object currentTarget = Parent.GetData("currentTarget");
+        if (currentTarget == null)
+        {
+            _state = NodeState.FAILURE;
+            return _state;
+        }
         UnitManager um = ((Transform)currentTarget).GetComponent<UnitManager>();
         if (um == null)
         {

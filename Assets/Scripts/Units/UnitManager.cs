@@ -49,7 +49,7 @@ public class UnitManager : MonoBehaviour
     private Vector3 _meshSize;
     public Vector3 MeshSize => _meshSize;
 
-    static bool alwaysShowHealthbar = false;
+    static bool alwaysShowHealthbar = true;
 
     private void Awake()
     {
@@ -60,6 +60,7 @@ public class UnitManager : MonoBehaviour
             healthbar.SetActive(false || alwaysShowHealthbar);
             _healthbarRenderer = healthbar.GetComponent<Renderer>();
         }
+        SetAnimatorTriggerVariable("Birth");
     }
 
     private void OnMouseDown()
@@ -95,6 +96,8 @@ public class UnitManager : MonoBehaviour
 
     public void Attack(Transform target)
     {
+        //logs uid and name of the target
+        Debug.Log(Unit.Data.unitName + " (uid " + Unit.Uid + ") attacks " + target.name + " (uid " + target.GetComponent<UnitManager>().Unit.Uid + ")");
         UnitManager um = target.GetComponent<UnitManager>();
         if (um == null) return;
         um.TakeHit(Unit.AttackDamage);
@@ -201,6 +204,11 @@ public class UnitManager : MonoBehaviour
         Debug.Log(Unit.Data.unitName + " has died. uid is " + Unit.Uid);
         if (_selected)
             Deselect();
+        if (Unit.Data.corpsePrefab)
+        {
+            GameObject corpse = Instantiate(Unit.Data.corpsePrefab, transform.position, transform.rotation);
+            corpse.transform.localScale = transform.localScale;
+        }
         Destroy(gameObject);
     }
 

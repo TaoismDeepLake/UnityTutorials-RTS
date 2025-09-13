@@ -4,10 +4,13 @@ namespace BehaviorTree
 {
     public abstract class Tree : MonoBehaviour
     {
+        [SerializeField] private string info = "CharacterBT";
         private Node _root = null;
 
         protected void Start()
         {
+            //write tree type to info
+            info = this.GetType().ToString();
             _root = SetupTree();
         }
 

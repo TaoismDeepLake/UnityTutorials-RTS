@@ -304,7 +304,7 @@ public class UIManager : MonoBehaviour
             _selectedUnit != null &&
             _selectedUnit.Owner == GameManager.instance.gamePlayersParameters.myPlayerId &&
             !_selectedUnit.LevelMaxedOut &&
-            Globals.CanBuy(_selectedUnit.LevelUpData.cost)
+            Globals.MainPlayerCanBuy(_selectedUnit.LevelUpData.cost)
         )
             selectedUnitMenuUpgradeButton.GetComponent<Button>().interactable = true;
 
@@ -685,7 +685,7 @@ public class UIManager : MonoBehaviour
 
         // if unit is mine, check if it can level up
         if (unitIsMine)
-            selectedUnitMenuUpgradeButton.GetComponent<Button>().interactable = Globals.CanBuy(_selectedUnit.LevelUpData.cost);
+            selectedUnitMenuUpgradeButton.GetComponent<Button>().interactable = Globals.MainPlayerCanBuy(_selectedUnit.LevelUpData.cost);
 
         // hide upgrade/destroy buttons if I don't own the building
         selectedUnitMenuUpgradeButton.SetActive(unitIsMine);

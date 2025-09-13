@@ -35,7 +35,7 @@ public class TaskFollow : Node
             _targetSize = Mathf.Max(s.x, s.z);
 
             int targetOwner = target.GetComponent<UnitManager>().Unit.Owner;
-            _range = (targetOwner != GameManager.instance.gamePlayersParameters.myPlayerId)
+            _range = (targetOwner != _manager.Unit.Owner)
                 ? _manager.Unit.AttackRange
                 : ((CharacterData)_manager.Unit.Data).buildRange;
             _lastTarget = target;
@@ -57,7 +57,7 @@ public class TaskFollow : Node
             // (else keep it for the TaskBuild node)
             Unit u = ((Transform)currentTarget).GetComponent<UnitManager>().Unit;
             int targetOwner = u.Owner;
-            if (targetOwner != GameManager.instance.gamePlayersParameters.myPlayerId)
+            if (targetOwner != _manager.Unit.Owner)
             {
                 ClearData("currentTarget");
                 ClearData("currentTargetOffset");

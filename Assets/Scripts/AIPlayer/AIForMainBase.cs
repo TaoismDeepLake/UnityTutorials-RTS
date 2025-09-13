@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class AIForMainBase : BaseAI
 {
+    public float buildingCooldown = 10f;
     public override void RunAITick()
     {
         if (castingCooldown <= 0)
@@ -15,7 +16,7 @@ public class AIForMainBase : BaseAI
                 if (sm != null)
                 {
                     sm.Trigger();
-                    castingCooldown = 3f;
+                    castingCooldown = buildingCooldown;
                 }
             }
         }
