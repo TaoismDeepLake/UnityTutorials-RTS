@@ -104,7 +104,14 @@ public class UnitsSelection : MonoBehaviour
                 Camera.main.WorldToViewportPoint(unit.transform.position)
             );
             if (inBounds)
+            {
+                if (unit.GetComponent<UnitManager>().Unit.Owner != GameManager.instance.gamePlayersParameters.myPlayerId)
+                {
+                    continue;
+                }
                 unit.GetComponent<UnitManager>().Select();
+                //can only select units of the same player
+            }
             else
                 unit.GetComponent<UnitManager>().Deselect();
         }
