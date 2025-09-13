@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: Soldier
   m_EditorClassIdentifier: 
   code: soldier
-  unitName: Kayamori A
+  unitName: Kayamori
   description: Basic melee unit
   healthpoints: 30
   prefab: {fileID: 559247847080589932, guid: 06d23605f1dd34a4489f1eba4be20ab2, type: 3}
+  corpsePrefab: {fileID: 8664697382820916336, guid: 6a0cb8aab7eb8d54b8f64093b779f159,
+    type: 3}
   sprite: {fileID: 21300000, guid: 93bd741d528470e48954fbc5a2fb03f5, type: 3}
   cost:
   - code: 0

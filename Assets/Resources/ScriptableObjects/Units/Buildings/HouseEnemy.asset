@@ -17,6 +17,7 @@ MonoBehaviour:
   description: Main Base
   healthpoints: 800
   prefab: {fileID: 4893885829384556338, guid: db4aeff2ecd9dc643bd0707ffe01ba49, type: 3}
+  corpsePrefab: {fileID: 0}
   sprite: {fileID: 0}
   cost:
   - code: 0
@@ -26,7 +27,7 @@ MonoBehaviour:
   canProduce: 000000000100000002000000
   skills:
   - {fileID: 11400000, guid: 440d2ab996dd1cd40b4ef1c5d611df2f, type: 2}
-  - {fileID: 11400000, guid: c95be254c31c543539a9005c6196e54c, type: 2}
+  - {fileID: 11400000, guid: 440d2ab996dd1cd40b4ef1c5d611df2f, type: 2}
   fieldOfView: 35
   attackRange: 10
   attackDamage: 0

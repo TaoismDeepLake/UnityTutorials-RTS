@@ -91,6 +91,8 @@ MonoBehaviour:
     value: FieldRun
   - key: Hit
     value: BattleVictoryStart
+  - key: Birth
+    value: BattleTeleportAppear
   selectionCircle: {fileID: 4911258750216955811}
   fov: {fileID: 7085735670232806380}
   meshRenderer: {fileID: 2288242175372592408}
@@ -112,6 +114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fbfda5af9ffc4878bf566c3a98994d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  info: CharacterBT
 --- !u!195 &7145380259906332850
 NavMeshAgent:
   m_ObjectHideFlags: 0

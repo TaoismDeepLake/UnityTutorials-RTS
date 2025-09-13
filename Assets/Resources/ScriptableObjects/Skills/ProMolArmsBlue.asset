@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39a57a855255a4545a0014b6b052d14c, type: 3}
+  m_Name: ProMolArmsBlue
+  m_EditorClassIdentifier: 
+  code: produce_molarms
+  skillName: MolArms
+  description: Produce a MolArms
+  type: 0
+  unitReference: {fileID: 11400000, guid: e464eaa9baf536e44a20cac33e64fa56, type: 2}
+  castTime: 1
+  cooldown: 1
+  sprite: {fileID: 0}
+  onStartSound: {fileID: 0}
+  onEndSound: {fileID: 0}

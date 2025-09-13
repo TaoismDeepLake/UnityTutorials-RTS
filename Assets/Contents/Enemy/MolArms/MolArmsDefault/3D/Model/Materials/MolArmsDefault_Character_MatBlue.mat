@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MolArmsDefault_Character_MatBlue
+  m_Shader: {fileID: 4800000, guid: 1a97144e4ad27a04aafd70f7b915cedb, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: a04b9e68872ddb94fb24c38a008d4e65, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IlluminationTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 5557c28b676b32342b160e4c233f3075, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTexture:
+        m_Texture: {fileID: 2800000, guid: a04b9e68872ddb94fb24c38a008d4e65, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineWidthTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Prizmmatcap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Prizmscroll:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReceiveShadowTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimTexture:
+        m_Texture: {fileID: 2800000, guid: a5dd63276a0e8594bbefdd65b8f0f546, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadeTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadingGradeTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SphereAdd:
+        m_Texture: {fileID: 2800000, guid: 6e2192fe60f885d4c8085e3e6fdea945, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UvAnimMaskTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _effectmask:
+        m_Texture: {fileID: 2800000, guid: 90449ddbdccb23c45b0c2e8f55287e0b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _matcaptex:
+        m_Texture: {fileID: 2800000, guid: a5dd63276a0e8594bbefdd65b8f0f546, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _metalmatcap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaClip: 1
+    - _AlphaCutoff: 0.5
+    - _AlphaToMask: 0
+    - _Attack: 0.1
+    - _BlackTile: 2
+    - _BlendMode: 0
+    - _BlendOp: 0
+    - _BumpScale: 1
+    - _ColorIllumination: 0
+    - _CrackAll: 0
+    - _CrackPoint1: 0
+    - _CrackTile: 4
+    - _Cull: 2
+    - _CullMode: 2
+    - _Cutoff: 0
+    - _DebugMode: 0
+    - _DetailNormalMapScale: 1
+    - _DissolveTile: 5
+    - _Distance: 0.04
+    - _DstBlend: 0
+    - _EmissionEnable: 1
+    - _EmissionStorengs: 1
+    - _EnableOutline: 1
+    - _FOV: 0.05
+    - _Float0: 5
+    - _ForceCutoffAlways: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _Illumination: 0
+    - _IlluminationSpeed: 0
+    - _IlluminationTile: 1
+    - _IndirectLightIntensity: 0.1
+    - _LightColorAttenuation: 0
+    - _MToonVersion: 39
+    - _MaxWidth: 1
+    - _Metal: 0
+    - _MetalNormal: 0
+    - _Metallic: 0
+    - _Mode: 3
+    - _OcclusionStrength: 1
+    - _OutlineColorMode: 0
+    - _OutlineCullMode: 1
+    - _OutlineLightingMix: 1
+    - _OutlineScaledMaxDistance: 1
+    - _OutlineWidth: 0.06
+    - _OutlineWidthMode: 0
+    - _Parallax: 0.02
+    - _Prizm: 0
+    - _PrizmPower: 5
+    - _PrizmScale: 5
+    - _PrizmYscale: 0
+    - _QueueControl: -1
+    - _QueueOffset: 0
+    - _ReceiveShadowRate: 1
+    - _ReceiveShadows: 1
+    - _RimFresnelPower: 1
+    - _RimLift: 0
+    - _RimLightingMix: 0
+    - _RimScale: 1
+    - _ShadeShift: 0
+    - _ShadeToony: 0.9
+    - _ShadingGradeRate: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _UvAnimRotation: 0
+    - _UvAnimScrollX: 0
+    - _UvAnimScrollY: 0
+    - _ZWrite: 1
+    - __dirty: 1
+    - _metaric: 1
+    m_Colors:
+    - _AnimationParams1: {r: 1, g: 1, b: 1, a: 0}
+    - _AnimationParams2: {r: 1, g: 1, b: 1, a: 1}
+    - _AttackColor: {r: 0.1882353, g: 1.4980392, b: 0, a: 0}
+    - _BaseColorScale: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorScale: {r: 1, g: 1, b: 1, a: 1}
+    - _CrackColor: {r: 0.2509804, g: 2.3271534, b: 7.937255, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _OutlineAddColor: {r: 0, g: 0, b: 0, a: 0}
+    - _OutlineColor: {r: 0.2075472, g: 0.1275391, b: 0.05384479, a: 1}
+    - _PrizmUVSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _RimColor: {r: 0.5019, g: 0.5019, b: 0.5019, a: 1}
+    - _RimColorScale: {r: 1, g: 1, b: 1, a: 1}
+    - _RimTrans: {r: 0, g: 0, b: 0, a: 0}
+    - _Rimcolor: {r: 0.3529412, g: 0.3529412, b: 0.3529412, a: 1}
+    - _ShadeColor: {r: 1, g: 0.8537736, b: 0.89764154, a: 1}
+  m_BuildTextureStacks: []
