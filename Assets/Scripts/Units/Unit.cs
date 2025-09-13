@@ -30,7 +30,7 @@ public class Unit
     protected string _uid;
     protected UnitData _data;
     protected Transform _transform;
-    protected int _currentHealth;
+    [SerializeField] protected int _currentHealth;
     protected int _level;
     protected bool _levelMaxedOut;
     protected UnitLevelUpData _levelUpData;

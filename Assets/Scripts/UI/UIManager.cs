@@ -27,11 +27,13 @@ public class UIManager : MonoBehaviour
     private Button[] _constructionSlotButtons;
 
     [Header("Units Selection")]
+    public Sprite defaultUnitIcon;
     public GameObject selectedUnitMenu;
     public GameObject selectedUnitMenuUpgradeButton;
     public GameObject selectedUnitMenuDestroyButton;
     private Text _selectedUnitTitleText;
     private Text _selectedUnitLevelText;
+    private Image _selectedUnitLevelIcon;
     private Transform _selectedUnitResourcesProductionParent;
     private Transform _selectedUnitAttackParametersParent;
     private Transform _selectedUnitActionButtonsParent;
@@ -82,6 +84,8 @@ public class UIManager : MonoBehaviour
     public Image playerIndicatorImage;
     private Dictionary<InGameResource, Text> _resourceTexts;
 
+
+
     private void Awake()
     {
         Transform infoPanelTransform = infoPanel.transform;
@@ -98,6 +102,7 @@ public class UIManager : MonoBehaviour
         Transform selectedUnitMenuTransform = selectedUnitMenu.transform;
         _selectedUnitTitleText = selectedUnitMenuTransform.Find("UnitSpecific/Content/GeneralInfo/Title").GetComponent<Text>();
         _selectedUnitLevelText = selectedUnitMenuTransform.Find("UnitSpecific/Content/GeneralInfo/Level").GetComponent<Text>();
+        _selectedUnitLevelIcon = selectedUnitMenuTransform.Find("UnitSpecific/Content/GeneralInfo/Icon").GetComponent<Image>();
         _selectedUnitResourcesProductionParent = selectedUnitMenuTransform.Find("UnitSpecific/Content/ResourcesProduction");
         _selectedUnitAttackParametersParent = selectedUnitMenuTransform.Find("UnitSpecific/Content/AttackParameters");
         _selectedUnitActionButtonsParent = selectedUnitMenuTransform.Find("UnitSpecific/SpecificActions");
@@ -616,6 +621,9 @@ public class UIManager : MonoBehaviour
         // update texts
         _selectedUnitTitleText.text = unit.Data.unitName;
         _selectedUnitLevelText.text = $"Level {unit.Level}";
+        _selectedUnitLevelIcon.sprite = unit.Data.sprite != null
+            ? unit.Data.sprite
+            : defaultUnitIcon;
 
         // RESOURCE PRODUCTION --------------------------------------------
         // clear resource production
